@@ -236,6 +236,11 @@ quiz = {
     ],
   "Assume all table name and column name references in the SQL statement that follows are valid. That being said, what is wrong with the syntax of the following SQL statement?\n\n\nSELECT SHIP_ID\nFROM SHIPS\nWHERE ((2*LIFEBOATS)+57) - CAPACITY IN (LIFEBOATS*20, LIFEBOATS+LENGTH);":
     ["There is nothing wrong with the syntax."],
+  'Assume that birds.dat exists, is accessible, and contains data for a Bird object. What are the results of executing the following code?\n\n\nStart of code block\nimport java.io.*;\npublic class Bird {\n   private String name;\n   private transient Integer age;\n\n   // Getters/setters omitted\n\n   public static void main(String[] args) {\n      try(var is = new ObjectInputStream(\n           new BufferedInputStream(\n           new FileInputStream("birds.dat")))) {\n        Bird b = is.readObject();\n        System.out.println(b.age);\n     } } }\n\nEnd of code block':
+    [
+      "The code will not compile because of line 12.",
+      "The code will not compile because of lines 9-11.",
+    ],
   "Assume you have a table ITEMS that includes a column STATUS. Which of the following statements is syntactically correct? (Choose all that apply.)":
     [
       "SELECT * FROM ITEMS FETCH NEXT 20 PERCENT ROWS ONLY;",
@@ -244,6 +249,17 @@ quiz = {
     ],
   "Assume you issue the following command:\n\n\ndelete from payroll where payroll_date>sysdate-1;\n\nWhat command would reverse the results of this delete?":
     ["rollback;"],
+  "Assuming a record is defined with at least one field, which components does the compiler always insert, each of which may be overridden or redeclared?":
+    [
+      "An accessor method for each field",
+      "The equals() method",
+      "The hashCode() method",
+      "The toString() method",
+    ],
+  "Assuming the following classes are declared as top-level types in the same file, which classes contain compiler errors?\n\n\nStart of code block\nsealed class Bird {\n   public final class Flamingo extends Bird {}\n}\n\nsealed class Monkey {}\n\nclass EmperorTamarin extends Monkey {}\n\nnon-sealed class Mandrill extends Monkey {}\n\nsealed class Friendly extends Mandrill permits Silly {}\n\nfinal class Silly {}\n\n\nEnd of code block":
+    ["EmperorTamarin", "Friendly"],
+  'Assuming the following declarations are top-level types declared in the same file, which of these will successfully compile?\n\n\nStart of code block\nrecord Music() {\n   final int score = 10;\n}\nrecord Song(String lyrics) {\n   Song {\n      this.lyrics = lyrics + "Hello World";\n   }\n}\nsealed class Dance {}\nrecord March() {\n   @Override String toString() { return null; }\n}\nclass Ballet extends Dance {}\n\nEnd of code block':
+    ["Dance"],
   "Assuring that you are working within a high-performance team is part of the project manager's role.":
     ["Directing the team's daily activities through clear instructions"],
   "At the beginning of a project, the sponsor/owner and project manager frequently get together with the team to identify stakehold":
@@ -538,6 +554,10 @@ quiz = {
     ["Spike"],
   "From the following table, which stakeholder will be the project manager's highest priority stakeholder to reach out to?":
     ["Stakeholder A"],
+  'Given the following program, what can be inserted into the blank line that would allow it to print Swim! at runtime?\n\n\nCopy \nStart of code block\ninterface Swim {\n   default void perform() { System.out.print("Swim!"); }\n}\ninterface Dance {\n   default void perform() { System.out.print("Dance!"); }\n}\npublic class Penguin implements Swim, Dance {\n   public void perform() { System.out.print("Smile!"); }\n   private void doShow() {\n     __________________________;\n   }\n   public static void main(String[] eggs) {\n      new Penguin().doShow();\n   }\n}\n\nEnd of code block':
+    ["Swim.super.perform()"],
+  "Given the following record declaration, which lines of code can fill in the blank and allow the code to compile?\n\n\nStart of code block\npublic record RabbitFood(int size, String brand, LocalDate expires) {\n   public static int MAX_STORAGE = 100;\n   public RabbitFood() {\n      _________________________;\n   }\n}\n\nEnd of code block":
+    ["None of these"],
   "Global projects now require resources that did not meet the expectations of project managers years ago. They require more flexib":
     ["Caves and commons"],
   "Governance of a project needs to be kept as private as possible to avoid information escaping the organization.":
@@ -564,8 +584,14 @@ quiz = {
     [
       "The project manager is focused on the overall project performance. The Scrum master is focused on guiding the core team through the Scrum process. The product owner is focused on the product being delivered.",
     ],
+  "How many lines of the following program contain a compilation error?\n\n\nStart of code block\nclass Primate {\n   protected int age = 2;\n   { age = 1; }\n   public Primate() {\n      this().age = 3;\n   }\n}\npublic class Orangutan {\n   protected int age = 4;\n  { age = 5; }\n  public Orangutan() {\n     this().age = 6;\n  }\n  public static void main(String[] bananas) {\n     final Primate x = (Primate)new Orangutan();\n     System.out.println(x.age);\n  }\n}\n\nEnd of code block":
+    ["3"],
   "How many sequential steps exist in the CRISP-DM methodology?": ["Six"],
   "How many tables can be joined in a query?": ["One, two, three, or more"],
+  'How many times is the word true printed?\n\n\nStart of code block\nvar s1 = "Java";\nvar s2 = "Java";\nvar s3 = s1.indent(1).strip();\nvar s4 = s3.intern();\nvar sb1 = new StringBuilder();\nsb1.append("Ja").append("va");\n\nSystem.out.println(s1 == s2);\nSystem.out.println(s1.equals(s2));\nSystem.out.println(s1 == s3);\nSystem.out.println(s1 == s4);\nSystem.out.println(sb1.toString() == s1);\nSystem.out.println(sb1.toString().equals(s1));\n\nEnd of code block':
+    ["Four times"],
+  'How many times is true printed out by this code?\n\n\nStart of code block\nimport java.util.function.Predicate;\npublic class Fantasy {\n   public static void scary(String animal) {\n      var dino = s -> "dino".equals(animal);\n      var dragon = s -> "dragon".equals(animal);\n      var combined = dino.or(dragon);\n      System.out.println(combined.test(animal));\n   }\n   public static void main(String[] args) {\n      scary("dino");\n      scary("dragon");\n      scary("unicorn");\n   }\n}\n\nEnd of code block':
+    ["The code does not compile."],
   "How would you best classify the cost of raw materials on a project?": [
     "Direct",
   ],
@@ -1837,7 +1863,18 @@ quiz = {
       "Inconsistent and incomplete information",
       "Privacy and confidentiality",
     ],
+  "What code change is needed to make the method compile, assuming there is no class named T?\n\n\nStart of code block\npublic static T identity(T t) {\n   return t;\n}\n\nEnd of code block":
+    ["Add <T> after the static keyword."],
   "What does the categorical data contain?": ["Nominal data"],
+  "What does the following code output?\n\n\nStart of code block\nFunction<Integer, Integer> s = a -> a + 4;\nFunction<Integer, Integer> t = a -> a * 3;\nFunction<Integer, Integer> c = s.compose(t);\nSystem.out.print(c.apply(1));\n\nEnd of code block":
+    ["7"],
+  'What does the following program print?\n\n\nStart of code block\npublic class Zebra {\n   private int x = 24;\n   public int hunt() {\n      String message = "x is ";\n      abstract class Stripes {\n         private int x = 0;\n         public void print() {\n            System.out.print(message + Zebra.this.x);\n         }\n     }\n     var s = new Stripes() {};\n     s.print();\n     return x;\n  }\n  public static void main(String[] args) {\n     new Zebra().hunt();\n  } }\n\nEnd of code block':
+    ["x is 24"],
+  "What exception is thrown when there is an issue connecting to the database?":
+    ["SQLException"],
+  "What interface is used to call a stored procedure?": ["CallableStatement"],
+  "What interface is used to run SQL defined in the code with bind variables?":
+    ["PreparedStatement"],
   "What is a System for Value Delivery?": [
     "A collection of strategic business activities aimed at building, sustaining, and/or advancing an organization",
   ],
@@ -1895,6 +1932,18 @@ quiz = {
   "What is the objective of qualitative risk analysis?": [
     "To prioritize and rank the identified risks so the project can focus on the high-priority risks",
   ],
+  'What is the output of the following code snippet?\n\n\nStart of code block\nint moon = 9, star = 2 + 2 * 3;\nfloat sun = star>10 ? 1 : 3;\ndouble jupiter = (sun + moon) - 1.0f;\nint mars = --moon <= 8 ? 2 : 3;\nSystem.out.println(sun+", "+jupiter+", "+mars);\n\nEnd of code block':
+    ["3.0, 11.0, 2"],
+  'What is the output of the following program?\n\n\nStart of code block\nclass Deer {\n   public Deer() {System.out.print("Deer");}\n   public Deer(int age) {System.out.print("DeerAge");}\n   protected boolean hasHorns() { return false; }\n}\npublic class Reindeer extends Deer {\n   public Reindeer(int age) {System.out.print("Reindeer");}\n   public boolean hasHorns() { return true; }\n   public static void main(String[] args) {\n     Deer deer = new Reindeer(5);\n     System.out.println("," + deer.hasHorns());\n} }\n\nEnd of code block':
+    ["DeerReindeer,true"],
+  'What is the output of the following program?\n\n\nStart of code block\ninterface Aquatic {\n   int getNumOfGills(int p);\n}\npublic class ClownFish implements Aquatic {\n   String getNumOfGills() { return "14"; }\n   int getNumOfGills(int input) { return 15; }\n   public static void main(String[] args) {\n      System.out.println(new ClownFish().getNumOfGills(-1));\n} }\n\nEnd of code block':
+    ["The code will not compile because of line 6."],
+  'What is the output of the following program?\n\n\nStart of code block\ninterface HasTail { private int getTailLength(); }\nabstract class Puma implements HasTail {\n   String getTailLength() { return "4"; }\n}\npublic class Cougar implements HasTail {\n   public static void main(String[] args) {\n      var puma = new Puma() {};\n      System.out.println(puma.getTailLength());\n   }\n  public int getTailLength(int length) { return 2; }\n}\n\nEnd of code block':
+    ["The code will not compile because of line 1."],
+  'What is the output of the following program?\n\n\nStart of code block\npublic sealed class ArmoredAnimal permits Armadillo {\n   public ArmoredAnimal(int size) {}\n   @Override public String toString() { return "Strong"; }\n   public static void main(String[] a) {\n      var c = new Armadillo(10, null);\n      System.out.println(c);\n   }\n}\nclass Armadillo extends ArmoredAnimal {\n   @Override public String toString() { return "Cute"; }\n   public Armadillo(int size, String name) {\n      super(size);\n   }\n}\n\nEnd of code block':
+    ["The program does not compile."],
+  'What is the output of this code?\n\n\nStart of code block\nPredicate<String> empty = String::isEmpty;\nPredicate<String> notEmpty = empty.negate();\n\nvar result = Stream.generate(() -> "")\n    .filter(notEmpty)\n    .collect(Collectors.groupingBy(k -> k))\n    .entrySet()\n    .stream()\n    .map(Entry::getValue)\n    .flatMap(Collection::stream)\n    .collect(Collectors.partitioningBy(notEmpty));\nSystem.out.println(result);\n\nEnd of code block':
+    ["The code does not terminate."],
   "What is the primary difference between statistics and data mining?": [
     "Statistics starts with a well-defined proposition and hypothesis, whereas data mining starts with a loosely defined discovery statement.",
   ],
@@ -1907,6 +1956,53 @@ quiz = {
   "What is the relationship between a project, a program, and a portfolio?": [
     "A portfolio can consist of programs and projects; a program is a group of related projects.",
   ],
+  "What is the result of compiling and executing the following program?\n\n\nStart of code block\npublic class FeedingSchedule {\n   public static void main(String[] args) {\n      var x = 5;\n      var j = 0;\n      OUTER: for (var i = 0; i < 3;)\n         INNER: do {\n            i++;\n            x++;\n            if (x> 10) break INNER;\n           x += 4;\n           j++;\n        } while (j <= 2);\n     System.out.println(x);\n} }\n\nEnd of code block":
+    ["12"],
+  'What is the result of executing the following application?\n\n\nStart of code block\nfinal var cb = new CyclicBarrier(3,\n   () -> System.out.println("Clean!"));  // u1\nExecutorService service = Executors.newSingleThreadExecutor();\ntry {\n   IntStream.generate(() -> 1)\n      .limit(12)\n      .parallel()\n      .forEach(i -> service.submit(() -> cb.await()));  // u2\n} finally { service.shutdown(); }\n\nEnd of code block':
+    ["It compiles but waits forever at runtime."],
+  'What is the result of executing the following code snippet?\n\n\nStart of code block\nfinal int score1 = 8, score2 = 3;\nchar myScore = 7;\nvar goal = switch (myScore) {\n    default -> {if(10>score1) yield "unknown";}\n    case score1 -> "great";\n    case 2, 4, 6 -> "good";\n    case score2, 0 -> {"bad";}\n};\nSystem.out.println(goal);\n\nEnd of code block':
+    ["Exactly two lines need to be changed for the code to compile."],
+  'What is the result of running the following class?\n\n\nStart of code block\nimport java.util.function.*;\n\npublic class Panda {\n   int age;\n   public static void main(String[] args) {\n      Panda p1 = new Panda();\n      p1.age = 1;\n      check(p1, p -> {p.age < 5});\n   }\n  private static void check(Panda panda,\n     Predicate<Panda> pred) {\n     String result = pred.test(panda)\n        ? "match" : "not match";\n     System.out.print(result);\n} }\n\nEnd of code block':
+    ["Compiler error on line 8"],
+  'What is the result of the following class?\n\n\nStart of code block\nimport java.util.function.*;\n\npublic class Panda {\n   int age;\n   public static void main(String[] args) {\n      Panda p1 = new Panda();\n      p1.age = 1;\n      check(p1, p -> p.age < 5);\n   }\n  private static void check(Panda panda,\n     Predicate<Panda> pred) {\n     String result =\n        pred.test(panda) ? "match" : "not match";\n     System.out.print(result);\n} }\n\nEnd of code block':
+    ["match"],
+  "What is the result of the following code?\n\n\nStart of code block\nComparator<Integer> c1 = (o1, o2) -> o2 - o1;\nComparator<Integer> c2 = Comparator.naturalOrder();\nComparator<Integer> c3 = Comparator.reverseOrder();\n\nvar list = Arrays.asList(5, 4, 7, 2);\nCollections.sort(list,_________);\nCollections.reverse(list);\nCollections.reverse(list);\nSystem.out.println(Collections.binarySearch(list, 2));\n\nEnd of code block":
+    [
+      "One or more of the comparators can fill in the blank so that the code prints 0.",
+    ],
+  'What is the result of the following code?\n\n\nStart of code block\nMap m = new HashMap();\nm.put(123, "456");\nm.put("abc", "def");\nSystem.out.println(m.contains("123"));\n\nEnd of code block':
+    ["Compiler error on line 4"],
+  'What is the result of the following code?\n\n\nStart of code block\ninterface Climb {\n   boolean isTooHigh(int height, int limit);\n}\n\npublic class Climber {\n   public static void main(String[] args) {\n      check((h, m) -> h.append(m).isEmpty(), 5);\n   }\n   private static void check(Climb climb, int height) {\n     if (climb.isTooHigh(height, 10))\n        System.out.println("too high");\n     else\n        System.out.println("ok");\n  }\n}\n\nEnd of code block':
+    ["Compiler error on line 7"],
+  "What is the result of the following code?\n\n\nStart of code block\npublic class Movie {\n   private int butter = 5;\n   private Movie() {}\n   protected class Popcorn {\n      private Popcorn() {}\n      public static int butter = 10;\n      public void startMovie() {\n         System.out.println(butter);\n      }\n  }\n  public static void main(String[] args) {\n     var movie = new Movie();\n     Movie.Popcorn in = new Movie().new Popcorn();\n     in.startMovie();\n  } }\n\nEnd of code block":
+    ["The output is 10."],
+  'What is the result of the following code?\n\n\nStart of code block\npublic record Hello<T>(T t) {\n   public Hello(T t) { this.t = t; }\n   private <T> void println(T message) {\n      System.out.print(t + "-" + message);\n   }\n   public static void main(String[] args) {\n      new Hello<String>("hi").println(1);\n      new Hello("hola").println(true);\n\n\n } }\n\nEnd of code block':
+    ["hi-1hola-true"],
+  "What is the result of the following code?\n\n\nStart of code block\nvar map = Map.of(1,2, 3, 6);\nvar list = List.copyOf(map.entrySet());\n\nList<Integer> one = List.of(8, 16, 2);\nvar copy = List.copyOf(one);\nvar copyOfCopy = List.copyOf(copy);\nvar thirdCopy = new ArrayList<>(copyOfCopy);\n\nlist.replaceAll(x -> x * 2);\none.replaceAll(x -> x * 2);\nthirdCopy.replaceAll(x -> x * 2);\n\nSystem.out.println(thirdCopy);\n\nEnd of code block":
+    [
+      "If any lines with compiler errors are removed, the code throws an exception at runtime.",
+      "One line fails to compile.",
+    ],
+  "What is the result of the following code?\n\n\nStart of code block\nvar map = new HashMap<Integer, Integer>();\nmap.put(1, 10);\nmap.put(2, 20);\nmap.put(3, null);\nmap.merge(1, 3, (a,b) -> a + b);\nmap.merge(3, 3, (a,b) -> a + b);\nSystem.out.println(map);\n\nEnd of code block":
+    ["{1=13, 2=20, 3=3}"],
+  "What is the result of the following code?\n\n\nStart of code block\nvar treeMap = new TreeMap<Character, Integer>();\ntreeMap.put('k', 1);\ntreeMap.put('k', 2);\ntreeMap.put('m', 3);\ntreeMap.put('M', 4);\ntreeMap.replaceAll((k, v) -> v + v);\ntreeMap.keySet()\n    .forEach(k -> System.out.print(treeMap.get(k)));\n\nEnd of code block":
+    ["846"],
+  'What is the result of the following program?\n\n\nStart of code block\npublic class Favorites {\n   enum Flavors {\n      VANILLA, CHOCOLATE, STRAWBERRY\n      static final Flavors DEFAULT = STRAWBERRY;\n  }\n   public static void main(String[] args) {\n      for(final var e : Flavors.values())\n         System.out.print(e.ordinal()+" ");\n  }\n}\n\nEnd of code block':
+    ["Exactly one line of code does not compile."],
+  "What is the result of the following program?\n\n\nStart of code block\npublic class MathFunctions {\n    public static void addToInt(int x, int amountToAdd) {\n       x = x + amountToAdd;\n    }\n    public static void main(String[] args) {\n       var a = 15;\n       var b = 10;\n       MathFunctions.addToInt(a, b);\n       System.out.println(a);   } }\n\nEnd of code block":
+    ["15"],
+  'What is the result of the following program?\n\n\nStart of code block\npublic class MyComparator implements Comparator<String> {\n   public int compare(String a, String b) {\n      return b.toLowerCase().compareTo(a.toLowerCase());\n   }\n   public static void main(String[] args) {\n      String[] values = { "123", "Abb", "aab" };\n      Arrays.sort(values, new MyComparator());\n     for (var s: values)\n        System.out.print(s + " ");\n  }\n}\n\nEnd of code block':
+    ["Abb aab 123"],
+  'What is the result of the following program?\n\n\nStart of code block\npublic class Weather {\n   enum Seasons {\n      WINTER, SPRING, SUMMER, FALL\n   }\n\n   public static void main(String[] args) {\n      Seasons v = null;\n      switch (v) {\n         case Seasons.SPRING -> System.out.print("s");\n         case Seasons.WINTER -> System.out.print("w");\n         case Seasons.SUMMER -> System.out.print("m");\n         default -> System.out.println("missing data"); }\n   }\n}\n\nEnd of code block':
+    ["More than one line of code does not compile."],
+  'What is the result of the following program?\n\n\nStart of code block\npublic record Sorted(int num, String text)\n   implements Comparable<Sorted>, Comparator<Sorted> {\n\n   public String toString() { return "" + num; }\n   public int compareTo(Sorted s) {\n      return text.compareTo(s.text);\n   }\n  public int compare(Sorted s1, Sorted s2) {\n     return s1.num - s2.num;\n  }\n  public static void main(String[] args) {\n     var s1 = new Sorted(88, "a");\n     var s2 = new Sorted(55, "b");\n     var t1 = new TreeSet<Sorted>();\n     t1.add(s1); t1.add(s2);\n     var t2 = new TreeSet<Sorted>(s1);\n     t2.add(s1); t2.add(s2);\n     System.out.println(t1 + " " + t2);\n  } }\n\nEnd of code block':
+    ["[88, 55] [55, 88]"],
+  'What is the result of the following statements?\n\n\nStart of code block\nvar greetings = new ArrayDeque<String>();\ngreetings.offerLast("hello");\ngreetings.offerLast("hi");\ngreetings.offerFirst("ola");\ngreetings.pop();\ngreetings.peek();\nwhile (greetings.peek() != null)\n  System.out.print(greetings.pop());\n\nEnd of code block':
+    ["hellohi"],
+  "What is the simplest way of rewriting this code?\n\n\nStart of code block\nList<Integer> x = IntStream.range(1, 6)\n   .mapToObj(i -> i)\n   .collect(Collectors.toList());\nx.forEach(System.out::println);\n\nEnd of code block":
+    [
+      "Start of code block\nIntStream.range(1, 6).forEach(System.out::println);\nEnd of code block",
+    ],
   "What kinds of patterns can data mining discover?": [
     "Association",
     "Classification",
@@ -2049,6 +2145,9 @@ quiz = {
     [
       "Avoiding overwhelming stakeholders with too much communication and limiting outreach to a minimum",
     ],
+  "Which NIO.2 Path method allows you to join one Path to another Path?": [
+    "resolve()",
+  ],
   "Which PEAR DB library module must be loaded to use the database functions in a PHP program?":
     ["DB.php"],
   "Which RAID level is used for storing logs of transactions?": ["1"],
@@ -2068,6 +2167,12 @@ quiz = {
     ["Lifetime"],
   "Which autonomy implies that component DBS has the ability to decide whether and how much to share its functionality and resources with other":
     ["Association"],
+  "Which changes, when made independently, guarantee the following code snippet prints 100 at runtime?\n\n\nStart of code block\nList<Integer> data = new ArrayList<>();\nIntStream.range(0,100).parallel().forEach(s -> data.add(s));\nSystem.out.println(data.size());\n\nEnd of code block":
+    [
+      "Change forEach() to forEachOrdered() in the stream operation.",
+      "Remove parallel() in the stream operation.",
+      "Wrap the lambda body with a synchronized block.",
+    ],
   "Which classification approach use(s) historical samples to identify commonalities in order to assign a new sample to the most similar category?":
     ["Case-based reasoning"],
   "Which classification method use(s) conditional probabilities to build classification models?":
@@ -2111,6 +2216,30 @@ quiz = {
   ],
   "Which is the process of classifying a class of objects into more specialized subclasses?":
     ["Specialization"],
+  "Which is true if the contents of path1 start with the text Howdy?\n\n\nStart of code block\nSystem.out.println(Files.mismatch(path1,path2));\n\nEnd of code block":
+    [
+      "If path2 doesn't exist, the code throws an exception.",
+      "If the contents of path2 start with Hello, the code prints 1.",
+    ],
+  "Which is true of the following code?\n\n\nStart of code block\nint length = 3;\n\nfor (int i = 0; i<3; i++) {\n   if (i%2 == 0) {\n      Supplier<Integer> supplier = () -> length; // A\n      System.out.println(supplier.get());        // B\n   } else {\n      int j = i;\n      Supplier<Integer> supplier = () -> j;      // C\n      System.out.println(supplier.get());        // D\n   }\n}\n\nEnd of code block":
+    ["The code compiles successfully."],
+  "Which java.io class would be best to use to write text data to a user?": [
+    "PrintWriter",
+  ],
+  'Which lambda can replace the MySecret class to return the same value?\n\n\nStart of code block\ninterface Secret {\n   String magic(double d);\n}\n\nclass MySecret implements Secret {\n   public String magic(double d) {\n      return "Poof";\n   } }\n\nEnd of code block':
+    ['(e) -> "Poof"', '(e) -> { String f = ""; return "Poof"; }'],
+  'Which lambda expression, when entered into the blank line in the following code, causes the program to print hahaha?\n\n\nStart of code block\nimport java.util.function.Predicate;\npublic class Hyena {\n   private int age = 1;\n   public static void main(String[] args) {\n      var p = new Hyena();\n      double height = 10;\n      int age = 1;\n      testLaugh(p,  _________________________);\n      age = 2;\n   }\n   static void testLaugh(Hyena panda, Predicate<Hyena> joke) {\n      var r = joke.test(panda) ? "hahaha" : "silence";\n      System.out.print(r);\n   }\n}\n\nEnd of code block':
+    ["h -> h.age < 5", "var -> p.age <= 10"],
+  'Which lambdas can replace the new Sloth() call in the main() method and produce the same output at runtime?\n\n\nStart of code block\nimport java.util.List;\ninterface Yawn {\n   String yawn(double d, List<Integer> time);\n}\nclass Sloth implements Yawn {\n   public String yawn(double zzz, List<Integer> time) {\n      return "Sleep: " + zzz;\n   } }\npublic class Vet {\n   public static String takeNap(Yawn y) {\n      return y.yawn(10, null);\n   }\n   public static void main(String… unused) {\n      System.out.print(takeNap(new Sloth()));\n   } }\n\nEnd of code block':
+    ['(a,b) -> "Sleep: " + (double)(b==null ? a : a)'],
+  "Which lines in Tadpole.java give a compiler error?\n\n\nStart of code block\n// Frog.java\n  package animal;\n  public class Frog {\n     protected void ribbit() { }\n     void jump() { }\n  }\n\n// Tadpole.java\n  package other;\n  import animal.*;\n  public class Tadpole extends Frog {\n     public static void main(String[] args) {\n        Tadpole t = new Tadpole();\n        t.ribbit();\n        t.jump();\n        Frog f = new Tadpole();\n        f.ribbit();\n        f.jump();\n    } }\nEnd of code block":
+    ["Line 15", "Line 17", "Line 18"],
+  "Which lines of the following interface declarations do not compile?\n\n\nStart of code block\npublic interface Omnivore {\n   int amount = 10;\n   static boolean gather = true;\n   static void eatGrass() {}\n   int findMore() { return 2; }\n   default float rest() { return 2; }\n   protected int chew() { return 13; }\n   private static void eatLeaves() {}\n}\n\nEnd of code block":
+    ["Line 5", "Line 7"],
+  "Which lines of the following interface do not compile?\n\n\nStart of code block\npublic interface BigCat {\n   abstract String getName();\n   static int hunt() { getName(); return 5; }\n   default void climb() { rest(); }\n   private void roar() { getName();  climb(); hunt(); }\n   private static boolean sneak() { roar(); return true; }\n   private int rest() { return 2; };\n}\n\nEnd of code block":
+    ["Line 3", "Line 6"],
+  'Which lines, when entered independently into the blank, allow the code to print Not scared at runtime?\n\n\nStart of code block\npublic class Ghost {\n   public static void boo() {\n      System.out.println("Not scared");\n   }\n   protected final class Spirit {\n      public void boo() {\n         System.out.println("Booo!!!");\n      }\n   }\n   public static void main(String… haunt) {\n      var g = new Ghost().new Spirit() {};\n      __________________________;\n   }\n}\n\nEnd of code block':
+    ["None of these"],
   "Which list best describes an agile development approach?": [
     "Collaboration, expects change, deliver working product frequently, self-organizing teams",
   ],
@@ -2293,6 +2422,16 @@ quiz = {
   "Which of the following are the most commonly used normalization methods?": [
     "Log, binary, and inverse document frequencies",
   ],
+  'Which of the following are true?\n\n\nCopy \nStart of code block\nList<?> q = List.of("mouse", "parrot");\nvar v = List.of("mouse", "parrot");\n\nq.removeIf(String::isEmpty);\nq.removeIf(s -> s.length() == 4);\nv.removeIf(String::isEmpty);\nv.removeIf(s -> s.length() == 4);\n\nEnd of code block':
+    [
+      "Exactly two of these lines contain a compiler error.",
+      "If any lines with compiler errors are removed, this code throws an exception.",
+    ],
+  "Which of the following are true?\n\n\nStart of code block\nprivate static void magic(Stream s) {\n   Optional o = s\n      .filter(x -> x < 5)\n      .limit(3)\n      .max((x, y) -> x-y);\n   System.out.println(o.get());\n}\n\nEnd of code block":
+    [
+      "magic(Stream.empty()); throws an exception.",
+      "magic(Stream.of(5, 10)); throws an exception.",
+    ],
   "Which of the following are types of key performance indicators (KPIs)? (Choose two.)":
     ["Lagging indicators", "Leading indicators"],
   "Which of the following are types of subqueries? (select all that apply)": [
@@ -2337,6 +2476,15 @@ quiz = {
   ],
   "Which of the following can be used to remove data from a table? (Choose two.)":
     ["DELETE", "UPDATE"],
+  'Which of the following can fill in the blank to print [7, 5, 3]?\n\n\nStart of code block\npublic record Platypus(String name, int beakLength) {\n   @Override public String toString() {return "" + beakLength;}\n\n  public static void main(String[] args) {\n     Platypus p1 = new Platypus("Paula", 3);\n     Platypus p2 = new Platypus("Peter", 5);\n     Platypus p3 = new Platypus("Peter", 7);\n\n     List<Platypus> list = Arrays.asList(p1, p2, p3);\n\n     Collections.sort(list, Comparator.comparing______);\n\n     System.out.println(list);\n  }\n}\n\nEnd of code block':
+    [
+      "Start of code block\n(Platypus::beakLength).reversed()\nEnd of code block",
+      "Start of code block\n(Platypus::name).thenComparingInt(Platypus::beakLength).reversed()\nEnd of code block",
+    ],
+  "Which of the following can fill in the blanks in order to make this code compile?\n\n\nStart of code block\n__________ a = __________.getConnection(\n   url, userName, password);\n__________ b = a.prepareStatement(sql);\n__________ c = b.executeQuery();\nif (c.next()) System.out.println(c.getString(1));\n\nEnd of code block":
+    ["Connection, DataSource, PreparedStatement, ResultSet"],
+  "Which of the following classes and interfaces do not compile?\n\n\nStart of code block\npublic abstract class Camel { void travel(); }\n\npublic interface EatsGrass { private abstract int chew(); }\n\npublic abstract class Elephant {\n   abstract private class SleepsAlot {\n      abstract int sleep();\n   } }\n\npublic class Eagle { abstract soar(); }\n\npublic interface Spider { default void crawl() {} }\n\nEnd of code block":
+    ["Camel", "Eagle", "EatsGrass"],
   "Which of the following classes defines attributes and operations but does not have objects corresponding to those classes?":
     ["Abstract"],
   "Which of the following classification methods use(s) the analogy of natural evolution to build directed-search-based mechanisms to classify data samples?":
@@ -2724,6 +2872,11 @@ quiz = {
     [
       "It documents how risks will be managed and controlled for the project.",
       "It often contains sections describing the risk strategy, the risk categories to be used, and the definitions for risk probability and impact to be used.",
+    ],
+  'Which of the following statements are true if the table is empty before the code execution?\n\n\nStart of code block\nvar sql = "INSERT INTO people VALUES(?, ?, ?)";\nconn.setAutoCommit(false);\n\ntry (var ps = conn.prepareStatement(sql,\n   ResultSet.TYPE_SCROLL_SENSITIVE,\n   ResultSet.CONCUR_UPDATABLE)) {\n\n   ps.setInt(1, 1);\n   ps.setString(2, "Joslyn");\n   ps.setString(3, "NY");\n   ps.executeUpdate();\n\n   Savepoint sp = conn.setSavepoint();\n\n   ps.setInt(1, 2);\n   ps.setString(2, "Kara");\n   ps.executeUpdate();\n\n   conn._________________;\n}\n\nEnd of code block':
+    [
+      "If the blank line contains rollback(), there are no rows in the table.",
+      "If the blank line contains rollback(sp), there is one row in the table.",
     ],
   "Which of the following statements are true of DKNF (domain-key normal form)?":
     [

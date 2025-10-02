@@ -236,6 +236,8 @@ quiz = {
     ],
   "Assume all table name and column name references in the SQL statement that follows are valid. That being said, what is wrong with the syntax of the following SQL statement?\n\n\nSELECT SHIP_ID\nFROM SHIPS\nWHERE ((2*LIFEBOATS)+57) - CAPACITY IN (LIFEBOATS*20, LIFEBOATS+LENGTH);":
     ["There is nothing wrong with the syntax."],
+  'Assume that the directory /animals exists and is empty. What is the result of executing the following code?\n\n\nStart of code block\nPath path = Path.of("/animals");\ntry (var z = Files.walk(path)) {\n   boolean b = z\n      .filter((p,a) -> a.isDirectory() && !path.equals(p)) // x\n      .findFirst().isPresent();  // y\n   System.out.print(b ? "No Sub": "Has Sub");\n}\n\nEnd of code block':
+    ["The code will not compile because of line x."],
   "Assume you have a table ITEMS that includes a column STATUS. Which of the following statements is syntactically correct? (Choose all that apply.)":
     [
       "SELECT * FROM ITEMS FETCH NEXT 20 PERCENT ROWS ONLY;",
@@ -538,6 +540,10 @@ quiz = {
     ["Spike"],
   "From the following table, which stakeholder will be the project manager's highest priority stakeholder to reach out to?":
     ["Stakeholder A"],
+  'Given the four statements (L, M, N, O), select and order the ones that would complete the expression and cause the code to output 10 lines.\n\n\nStart of code block\nStream.generate(() -> "1")\n   L: .filter(x -> x.length()> 1)\n   M: .forEach(System.out::println)\n   N: .limit(10)\n   O: .peek(System.out::println)\n;\n\nEnd of code block':
+    ["N, M"],
+  "Given the generic type String, the partitioningBy() collector creates a Map<Boolean, List<String>> when passed to collect() by default. When a downstream collector is passed to partitioningBy(), which return types can be created?":
+    ["Map<Boolean, List<String>>", "Map<Boolean, Set<String>>"],
   "Global projects now require resources that did not meet the expectations of project managers years ago. They require more flexib":
     ["Caves and commons"],
   "Governance of a project needs to be kept as private as possible to avoid information escaping the organization.":
@@ -1686,6 +1692,10 @@ quiz = {
   "Video conferencing is a type of which communication method?": [
     "Interactive",
   ],
+  "We have a method that returns a sorted list without changing the original. Which of the following can replace the method implementation to do the same with streams?\n\n\nStart of code block\nprivate static List<String> sort(List<String> list) {\n   var copy = new ArrayList<String>(list);\n   Collections.sort(copy, (a, b) -> b.compareTo(a));\n   return copy;\n}\n\nEnd of code block":
+    [
+      "Start of code block\nreturn list.stream().sorted((a, b) -> b.compareTo(a)).collect(Collectors.toList());\nEnd of code block",
+    ],
   "Web analysis is used to find interesting usage patterns of Web sites. If any flaw in a Web site has been exploited, it can be inferred using Web analysis,":
     ["Web security"],
   "What SQL statement will both remove all data from a table as well as reset the high water mark of that table?":
@@ -1837,6 +1847,18 @@ quiz = {
       "Inconsistent and incomplete information",
       "Privacy and confidentiality",
     ],
+  "What changes need to be made together for this code to print the string 12345?\n\n\nStart of code block\nStream.iterate(1, x -> x++)\n   .limit(5).map(x -> x)\n   .collect(Collectors.joining());\n\nEnd of code block":
+    [
+      'Change map(x -> x) to map(x -> "" + x).',
+      "Change x -> x++ to x -> ++x.",
+      "Wrap the entire line in a System.out.print statement.",
+    ],
+  'What could be the output of the following code snippet?\n\n\nStart of code block\nvar stream = Stream.iterate("", (s) -> s + "1");\nSystem.out.println(stream.limit(2).map(x -> x + "2"));\n\nEnd of code block':
+    ["java.util.stream.ReferencePipeline$3@4517d9a3"],
+  'What could be the output of the following?\n\n\nStart of code block\nPredicate<String> predicate = s -> s.length()> 3;\nvar stream = Stream.iterate("-",\n    s -> ! s.isEmpty(), (s) -> s + s);\nvar b1 = stream.noneMatch(predicate);\nvar b2 = stream.anyMatch(predicate);\nSystem.out.println(b1 + " " + b2);\n\nEnd of code block':
+    ["An exception is thrown."],
+  'What could be the output of the following?\n\n\nStart of code block\nPredicate<String> predicate = s -> s.startsWith("g");\nvar stream1 = Stream.generate(() -> "growl!");\nvar stream2 = Stream.generate(() -> "growl!");\nvar b1 = stream1.anyMatch(predicate);\nvar b2 = stream2.allMatch(predicate);\nSystem.out.println(b1 + " " + b2);\n\nEnd of code block':
+    ["The code hangs."],
   "What does the categorical data contain?": ["Nominal data"],
   "What is a System for Value Delivery?": [
     "A collection of strategic business activities aimed at building, sustaining, and/or advancing an organization",
@@ -1895,6 +1917,10 @@ quiz = {
   "What is the objective of qualitative risk analysis?": [
     "To prioritize and rank the identified risks so the project can focus on the high-priority risks",
   ],
+  'What is the output of the following code?\n\n\nStart of code block\nvar spliterator = Stream.generate(() -> "x")\n   .spliterator();\n\nspliterator.tryAdvance(System.out::print);\nvar split = spliterator.trySplit();\nsplit.tryAdvance(System.out::print);\n\nEnd of code block':
+    ["xx"],
+  'What is the output of the following?\n\n\nStart of code block\npublic class Paging {\n   record Sesame(String name, boolean human)  {\n      @Override public String toString() {\n         return name();\n      }\n   }\n   record Page(List<Sesame> list, long count)  {}\n\n   public static void main(String[] args) {\n      var monsters = Stream.of(new Sesame("Elmo", false));\n      var people = Stream.of(new Sesame("Abby", true));\n      printPage(monsters, people);\n   }\n\n   private static void printPage(Stream<Sesame> monsters,\n         Stream<Sesame> people) {\n      Page page = Stream.concat(monsters, people)\n         .collect(Collectors.teeing(\n            Collectors.filtering(s -> s.name().startsWith("E"),\n               Collectors.toList()),\n            Collectors.counting(),\n            (l, c) -> new Page(l, c)));\n      System.out.println(page);\n   } }\n\nEnd of code block':
+    ["Page[list=[Elmo], count=2]"],
   "What is the primary difference between statistics and data mining?": [
     "Statistics starts with a well-defined proposition and hypothesis, whereas data mining starts with a loosely defined discovery statement.",
   ],
@@ -1907,6 +1933,12 @@ quiz = {
   "What is the relationship between a project, a program, and a portfolio?": [
     "A portfolio can consist of programs and projects; a program is a group of related projects.",
   ],
+  "What is the result of the following code?\n\n\nStart of code block\nvar s = DoubleStream.of(1.2, 2.4);\ns.peek(System.out::println).filter(x -> x> 2).count();\n\nEnd of code block":
+    ["1.2 and 2.4"],
+  "What is the simplest way of rewriting this code?\n\n\nStart of code block\nList<Integer> x = IntStream.range(1, 6)\n   .mapToObj(i -> i)\n   .collect(Collectors.toList());\nx.forEach(System.out::println);\n\nEnd of code block":
+    [
+      "Start of code block\nIntStream.range(1, 6).forEach(System.out::println);\nEnd of code block",
+    ],
   "What kinds of patterns can data mining discover?": [
     "Association",
     "Classification",
@@ -2062,6 +2094,11 @@ quiz = {
     ["A query that displays rows from the table with no joins"],
   "Which approaches for conflict management as described in the Thomas-Kilmann model are most common for conflicts within a high-pe":
     ["Collaborating", "Compromising", "Confronting/Problem-Solving"],
+  "Which are true statements about terminal operations in a stream that runs successfully?":
+    [
+      "At most one terminal operation can exist in a stream pipeline.",
+      "Terminal operations are a required part of the stream pipeline in order to get a result.",
+    ],
   "Which aspect of object specifies how the object is constructed by using the type constructors?":
     ["Structure"],
   "Which aspect of object specifies whether an object is a persistent object or transient object?":
@@ -2111,6 +2148,8 @@ quiz = {
   ],
   "Which is the process of classifying a class of objects into more specialized subclasses?":
     ["Specialization"],
+  'Which is true of the following code?\n\n\nStart of code block\nSet<String> birds = Set.of("oriole", "flamingo");\nStream.concat(birds.stream(), birds.stream(), birds.stream())\n   .sorted()       // line X\n   .distinct()\n   .findAny()\n   .ifPresent(System.out::println);\n\nEnd of code block':
+    ["The code does not compile."],
   "Which list best describes an agile development approach?": [
     "Collaboration, expects change, deliver working product frequently, self-organizing teams",
   ],
@@ -2293,6 +2332,13 @@ quiz = {
   "Which of the following are the most commonly used normalization methods?": [
     "Log, binary, and inverse document frequencies",
   ],
+  "Which of the following are true for the given declaration?\n\n\nCopy \nStart of code block\nvar is = IntStream.empty();\n\nEnd of code block":
+    [
+      "is.findAny() returns the type OptionalInt.",
+      "is.sum() returns the type int.",
+    ],
+  "Which of the following are true?\n\n\nStart of code block\nStream<Integer> s = Stream.of(1);\nIntStream is = s.boxed();\nDoubleStream ds = s.mapToDouble(x -> x);\nStream<Integer> s2 = ds.mapToInt(x -> x);\ns2.forEach(System.out::print);\n\nEnd of code block":
+    ["Line 2 causes a compiler error.", "Line 4 causes a compiler error."],
   "Which of the following are types of key performance indicators (KPIs)? (Choose two.)":
     ["Lagging indicators", "Leading indicators"],
   "Which of the following are types of subqueries? (select all that apply)": [
@@ -2337,6 +2383,13 @@ quiz = {
   ],
   "Which of the following can be used to remove data from a table? (Choose two.)":
     ["DELETE", "UPDATE"],
+  'Which of the following can fill in the blank so that the code prints out false?\n\n\nStart of code block\nvar s = Stream.generate(() -> "meow");\nvar match = s.______(String::isEmpty);\nSystem.out.println(match);\n\nEnd of code block':
+    ["allMatch"],
+  "Which of the following can we add after line 3 for the code to run without error and not produce any output?\n\n\nStart of code block\nvar stream = LongStream.of(1, 2, 3);\nvar opt = stream.map(n -> n * 10)\n   .filter(n -> n < 5).findFirst();\n\nEnd of code block":
+    [
+      "Start of code block\nif (opt.isPresent())   System.out.println(opt.getAsLong());\nEnd of code block",
+      "Start of code block\nopt.ifPresent(System.out::println);\nEnd of code block",
+    ],
   "Which of the following classes defines attributes and operations but does not have objects corresponding to those classes?":
     ["Abstract"],
   "Which of the following classification methods use(s) the analogy of natural evolution to build directed-search-based mechanisms to classify data samples?":
@@ -2582,6 +2635,8 @@ quiz = {
       "The database must be in ARCHIVELOG mode to use the flashback database command.",
       "Use the alter database flashback on command to enable flashback database mode.",
     ],
+  "Which of the following is true?\n\n\nStart of code block\nList<Integer> x1 = List.of(1, 2, 3);\nList<Integer> x2 = List.of(4, 5, 6);\nList<Integer> x3 = List.of();\nStream.of(x1, x2, x3).map(x -> x + 1)\n   .flatMap(x -> x.stream())\n   .forEach(System.out::print);\n\nEnd of code block":
+    ["The code does not compile."],
   "Which of the following is typically a simplified abstraction of the human brain and its complex biological networks of neurons?":
     ["Artificial neural network"],
   "Which of the following is used to include or exclude rows from a query that involves a grouping function?":
@@ -2713,6 +2768,10 @@ quiz = {
     ["Federated"],
   "Which of the following sequences of tasks represents the text mining process?":
     ["Establish the corpus, preprocess the data, and extract the knowledge."],
+  "Which of the following sets result to 8.0?": [
+    "Start of code block\ndouble result = LongStream.of(6L, 8L, 10L).mapToInt(x -> (int) x).boxed().collect(Collectors.groupingBy(x -> x)).keySet().stream().collect(Collectors.averagingInt(x -> x));\nEnd of code block",
+    "Start of code block\ndouble result = LongStream.of(6L, 8L, 10L).mapToInt(x -> (int) x).boxed().collect(Collectors.groupingBy(x -> x, Collectors.toSet())).keySet().stream().collect(Collectors.averagingInt(x -> x));\nEnd of code block",
+  ],
   "Which of the following specifies referential integrity?": [
     "FOREIGN KEY clause",
   ],
@@ -2724,6 +2783,11 @@ quiz = {
     [
       "It documents how risks will be managed and controlled for the project.",
       "It often contains sections describing the risk strategy, the risk categories to be used, and the definitions for risk probability and impact to be used.",
+    ],
+  'Which of the following statements are true about this code?\n\n\nStart of code block\nPredicate<String> empty = String::isEmpty;\nPredicate<String> notEmpty = empty.negate();\n\nvar result = Stream.generate(() -> "")\n   .limit(10)\n   .filter(notEmpty)\n   .collect(Collectors.groupingBy(k -> k))\n   .entrySet()\n   .stream()\n   .map(Entry::getValue)\n   .flatMap(Collection::stream)\n   .collect(Collectors.partitioningBy(notEmpty));\nSystem.out.println(result);\n\nEnd of code block':
+    [
+      "If we changed line 12 from partitioningBy(notEmpty) to groupingBy(n -> n), it would output {}.",
+      "It outputs {false=[], true=[]}.",
     ],
   "Which of the following statements are true of DKNF (domain-key normal form)?":
     [
@@ -2843,6 +2907,11 @@ quiz = {
     ["CPI"],
   "Which of the following terms refers to knowledge discovery?": [
     "Data analytics",
+  ],
+  "Which of the following throw an exception when an Optional is empty?": [
+    "opt.get();",
+    "opt.orElseThrow();",
+    "opt.orElseThrow(RuntimeException::new);",
   ],
   "Which of the following tools can be used for requirements elicitation? (Choose two.)":
     ["Interviewing", "Observation"],

@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         ucertify-quiz-helper
-// @version      3.1.1
+// @version      3.1.2
 // @description  ucertify-quiz-helper
 // @author       guanhua
 // @include      *ucertify*
@@ -147,6 +147,7 @@
       currentQuestionTextOnPage !== lastProcessedQuestion
     ) {
       console.log("new question, run helper");
+      lastProcessedQuestion = currentQuestionTextOnPage;
       setTimeout(() => {
         runHelper();
       }, 100);

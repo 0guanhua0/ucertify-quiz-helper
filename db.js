@@ -2059,6 +2059,14 @@ quiz = {
   "Which RAID level is used for storing logs of transactions?": ["1"],
   "Which RAID level uses a single parity disk relying on the disk controller to figure out which disk has failed?":
     ["3"],
+  "Which TCP/IP utility is most often used to test whether an IP host is up and functional?":
+    ["ping"],
+  "Which TCP/IP utility will produce the following result?\n\n\nStart of code block\nInterface: 199.102.30.152\nInternet Address   Physical Address    Type\n199.102.30.15      A0-ee-00-5b-0e-ac   dynamic\nEnd of code block":
+    ["arp"],
+  "Which TCP/IP utility will produce the given output?\n\n\nStart of code block\nReply from 204.153.163.2: bytes=32 time=1ms TTL=128\nReply from 204.153.163.2: bytes=32 time=1ms TTL=128\nReply from 204.153.163.2: bytes=32 time=1ms TTL=128\nReply from 204.153.163.2: bytes=32 time<10ms TTL=128\nEnd of code block":
+    ["ping"],
+  "Which Windows utility can the users use to connect to a machine 50 miles away to troubleshoot?":
+    ["Remote Desktop"],
   "Which abstraction concept is needed to distinguish among database objects and classes, and to identify database objects?":
     ["Identification"],
   "Which action item by the project manager may not help a new team member to be as productive as soon as possible?":
@@ -2081,6 +2089,11 @@ quiz = {
     ["group by clause"],
   "Which clustering method is based on the basic idea that nearby objects are more related to each other than are those that are farther away from each other?":
     ["Hierarchical"],
+  "Which command captures the traffic on all interfaces?": ["tcpdump -i any"],
+  "Which command-line tool can the users use to find the NIC's specific MAC address and IP address without physically going to the computer?":
+    ["arp"],
+  "Which command-line tool would best be used to verify DNS functionality in Linux?":
+    ["dig"],
   "Which component of the YARN architecture performs the given functions?": [
     "ResourceManager",
   ],
@@ -2099,6 +2112,8 @@ quiz = {
   "Which element is not normally part of a project's resource management plan?":
     ["A listing of the resource requirements for the project"],
   "Which format mask returns the local currency symbol?": ["L"],
+  "Which ftp navigation tool displays and changes the current directory on the local machine?":
+    ["lcd"],
   "Which if the following is a type of subquery (choose all that apply):": [
     "Nested subquery",
     "Scalar subquery",
@@ -2126,6 +2141,14 @@ quiz = {
   "Which model is also known as the CODASYL DBTG model?": ["Network model"],
   "Which model represents data as record types and also represents a limited type of 1:N relationship, called a set type?":
     ["Network model"],
+  "Which netstat command displays addresses and port numbers in numerical form?":
+    ["-n"],
+  "Which netstat command displays the owning process ID associated with each connection?":
+    ["-o"],
+  "Which netstat utility displays all connections and listening ports on the host computer?":
+    ["-a"],
+  "Which new Linux command was added recently to configure IP and interface parameters?":
+    ["ip"],
   "Which normal form is based on the concepts of multivalued dependencies?": [
     "4NF",
   ],
@@ -2321,6 +2344,8 @@ quiz = {
   ],
   "Which of the following are valid types of constraints that can be defined when creating a table? (select all that apply)":
     ["Primary key", "Unique"],
+  "Which of the following arp utility switches display the current ARP entries by interrogating the current protocol data?":
+    ["-a", "-g"],
   "Which of the following associations is represented as a line connecting the participating classes, and may optionally have a name?":
     ["Binary"],
   "Which of the following attributes is considered as a derived attribute?": [
@@ -2934,6 +2959,7 @@ quiz = {
   "Which of these is an example of a user story?": [
     "As a call center analyst, I want to input customers' first and last names and postal codes so that I can pull up their accounts quickly.",
   ],
+  "Which of these is not a chain type used by iptables?": ["Backward"],
   "Which of these is the process of extracting novel patterns and knowledge structures from continuous, rapid data records?":
     ["Data stream mining"],
   "Which one of the following is a DML statement?": ["UPDATE"],
@@ -2957,6 +2983,8 @@ quiz = {
     ["Horizontal"],
   "Which phase of concurrency control checks whether any of the transaction's updates violate serializability?":
     ["Validation"],
+  "Which ping commands will verify that the local TCP/IP interface is working?":
+    ["ping 127.0.0.1", "ping localhost"],
   "Which provisions are used by the Capacity Scheduler to give each tenant guarantees about cluster capacity?":
     [
       "Access control lists that determine who can submit, view, and modify the Jobs in a queue.",
@@ -3004,6 +3032,8 @@ quiz = {
     ["Mapping of binary 1:N relationship types"],
   "Which subquery includes references to the parent query and thus cannot execute as a standalone query? (Choose the best answer.)":
     ["A correlated subquery"],
+  "Which switch displays both workstation and server sessions but lists remote addresses by IP address only?":
+    ["-S"],
   "Which tools can be used by a project manager to assess the fit for any potential candidate for a project role? (Choose all that":
     ["Ability tests", "Attitudinal surveys", "Structured interviews"],
   "Which two-phase locking protocol is a deadlock-free protocol?": [
@@ -3021,6 +3051,10 @@ quiz = {
     ["Atomic"],
   "Which type of ordered single-level index is specified on nonordering fields as additional access structures to improve performance of queries and":
     ["Secondary"],
+  "Which utility can the users use to find the MAC and TCP/IP addresses of the Windows workstation?":
+    ["ipconfig /all"],
+  "Which utility produces output similar to the given output?\n\n\nStart of code block\n110 ms  96 ms  107 ms fgo1.corpcomm.net [209.74.93.10]\n96 ms  126 ms  95 ms someone.corpcomm.net [209.74.93.1]\n113 ms  119 ms  112 ms Serial5-1-1.GW2.MSP1.alter.net [157.130.100.185]\n133 ms  123 ms  126 ms 152.ATM3-0.XR2.CHI6.ALTER.NET  [146.188.209.126]\n176 ms  133 ms  129 ms 290.ATM2-0.TR2.CHI4.ALTER.NET  [146.188.209.10]\n196 ms  184 ms  218 ms 106.ATM7-0.TR2.SCL1.ALTER.NET  [146.188.136.162]\n182 ms  187 ms  187 ms 298.ATM7-0.XR2.SJC1.ALTER.NET  [146.188.146.61]\n204 ms  176 ms  186 ms 192.ATM3-0-0.SAN-JOSE9- GW.ALTER.NET [146.188.144.133]\n202 ms  198 ms  212 ms atm3-0-622M.cr1.sjc.globalcenter.net [206.57.16.17]\n209 ms  202 ms  195 ms pos3-1-155M.br4.SJC.globalcenter.net [206.132.150.98]\n190 ms   *   191 ms pos0-0-0-155M.hr3.SNV.globalcenter.net [206.251.5.93]\n195 ms  188 ms  188 ms pos4-1-0-   155M.hr2.SNV.globalcenter.net [206.132.150.206]\n198 ms  202 ms  197 ms www10.yahoo.com [204.71.200.75]\nEnd of code block":
+    ["tracert"],
   "While you are working on a long-term construction project, certain paths and activities are not crucial to start at the earliest":
     ["True"],
   "Who are considered some of the stakeholders on a project?": [
@@ -3058,8 +3092,11 @@ quiz = {
       "Improves ability to understand how the use of language impacts others",
       "Prioritizes analyzing data and evidence to evaluate arguments and resolve issues",
     ],
+  "Wireshark is an example of a(n) __________.": ["protocol analyzer"],
   "Working as a part of a government division approving a new building, you need to make sure that the budget is approved in advanc":
     ["Fixed price"],
+  "You are a network administrator in a reputed company. A user calls you complaining that the performance of the intranet web server is sluggish. When you try to ping the server, it takes several seconds for the server to respond. You suspect that the problem is related to a router that is seriously overloaded. Which of the following workstation utilities could you use to find out which router is causing this problem?":
+    ["tracert"],
   "You are a project manager working for a regional hospital company. You have been assigned the responsibility to manage a project":
     [
       "The recurring nature of the assessment in addition to the lack of a target end date means that this endeavor is not a project at all.",

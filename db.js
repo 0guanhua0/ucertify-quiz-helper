@@ -179,10 +179,20 @@ quiz = {
     ["OTDR"],
   "A typical example of interval scale measurement is the temperature on the Celsius scale.":
     ["True"],
+  "A user calls you complaining that he can't access the corporate intranet web server. You try the same address, and you receive a 'Host Not Found' error. Several minutes later, another user reports the same problem. You can still send emails and transfer files to another server. What is the most likely cause of the problem mentioned in the given scenario?":
+    ["The webserver is down."],
+  "A user calls you to report a problem regarding logging in to the corporate intranet. You can access the website without problems using the user's username and password. At your request, the user has tried logging in from other workstations but has been unsuccessful. What is the most likely cause of the problem?":
+    ["The user is logging in incorrectly."],
+  "A user can't log in to the network. She can't even connect to the Internet over the local area network. Other users in the same area aren't experiencing any problems. You attempt to log in as this user from your workstation with her username and password and don't experience any problems. However, you cannot log in with either her username or yours from her workstation. Which of these is the likely cause of the problem mentioned in the given scenario?":
+    ["A bad patch cable"],
   "A user has performed multiple JSON and XML edits. Which of the following layers of the OSI model relates to the given operation?":
     ["Presentation"],
+  "A user is experiencing problems logging in to a Linux server. He can connect to the Internet over the local area network. Other users in the same area aren't experiencing any problems. You attempt logging in as this user from your workstation with his username and password and don't experience any problems. However, you cannot log in with either his username or yours from his workstation. What is the likely cause of the situation explained in the given scenario?":
+    ["The Caps Lock key is pressed."],
   "A user reports an issue to a network technician that he is unable to connect to the server. The user has Linux OS installed on his system. Which of the following commands should the network technician use to test the connectivity issue between two network devices?":
     ["ping"],
+  "A workstation presents an error message to a user. The message states that a duplicate IP address has been detected on the network. After establishing a change in the network, what should be the next step of the standard troubleshooting model?":
+    ["Select the most probable cause."],
   "A(n) _____________ is a collection of neurons that takes inputs from the previous layer and converts those inputs into outputs for further processing.":
     ["hidden layer"],
   "AI (artificial intelligence) has the capability to find hidden patterns in a variety of data sources to identify problems and provide potential solutions.":
@@ -1485,6 +1495,10 @@ quiz = {
       "How many chairs will be needed for the extended family",
       "The size, flavor, and color of the birthday cake",
     ],
+  "Several users can't log in to the server. Which action would help you to narrow the problem down to the workstations, network, or server?":
+    ["Check the server console for user connections."],
+  "Several users have complained about the server's poor performance. However, you know that the memory installed on the server is sufficient. What could you use to determine the source of the problem?":
+    ["Performance-monitoring tools"],
   "Since 2020, your team has changed its primary methods of communication. Instead of physical location meetings, many teams have b":
     ["Photocopier"],
   "Singular value decomposition help reduce the overall structure of the term-document matrix to a lower dimensional space for further pattern/knowledge discovery.":
@@ -1944,6 +1958,8 @@ quiz = {
     ["SELECT * FROM HARDING.TEAPOT;"],
   "User account MUSKIE owns a table called CBAY. Which of the following statements can be executed by MUSKIE and enable user ONEILL to execute UPDATE statements on the CBAY table? (Choose two.)":
     ["GRANT ALL ON CBAY TO ONEILL;", "GRANT INSERT, UPDATE ON CBAY TO ONEILL;"],
+  "Users are reporting that they can access the Internet but not the internal company website. Which of these is the most likely problem?":
+    ["The intranet server is down."],
   "Value delivery is about making sure that the customer or client receives benefit and the efforts of the team focus only on work":
     ["False"],
   "Video conferencing is a type of which communication method?": [
@@ -2291,8 +2307,12 @@ quiz = {
     ["Risk appetite", "Risk threshold"],
   "When transforming an ERD into a relational database, you often use an entity to build a database's:":
     ["Table"],
+  "When troubleshooting an obscure network problem, what physical conditions should be reviewed to make sure that the network device is operating correctly?":
+    ["ESD problems", "Excessive heat", "Excessive humidity"],
   "When using a RACI chart, which of the following would a nonsponsor executive most likely be labeled during the period when work":
     ["Inform"],
+  "When wireless users complain that they are losing their connection to the applications during a session, what is the source of the problem?":
+    ["Latency"],
   "When working with the software development team, the organization has determined that the best way to improve productivity is th":
     ["Autonomy", "Teamwork"],
   "When working with your project team, you note the project leader is focused on getting":
@@ -3555,6 +3575,8 @@ quiz = {
   "Which of these is an example of a user story?": [
     "As a call center analyst, I want to input customers' first and last names and postal codes so that I can pull up their accounts quickly.",
   ],
+  "Which of these is not a basic physical issue that can occur on a network when a user is connected via cable?":
+    ["DNS configuration"],
   "Which of these is not a category of the cause of disaster in a disaster recovery plan?":
     ["Technical"],
   "Which of these is not a chain type used by iptables?": ["Backward"],
@@ -3584,6 +3606,10 @@ quiz = {
       "It doesn't work as well for some services.",
       "It requires identical or nearly identical hardware for each node.",
     ],
+  "Which of these steps are not part of the Network+ troubleshooting model?": [
+    "Reboot all the routers.",
+    "Reboot the servers.",
+  ],
   "Which of these was the most common reason for BSOD errors and system reboots in the older versions of Windows?":
     ["Failure of the graphics driver"],
   "Which of these would be the most efficient subnet mask for a point-to-point link?":
@@ -3769,6 +3795,8 @@ quiz = {
     ["Give them access to the information radiator."],
   "You are a well-experienced project manager who has successfully managed many projects in the past. You are now managing a projec":
     ["Adjust your leadership style according to the culture."],
+  "You are able to ping the local router and web server that a local user is trying to reach, but you cannot reach the web page that resides on that server. From step 2 (establish a theory of the probable cause) of the troubleshooting model, what is a possible problem that would lead to this situation?":
+    ["There is a problem with your browser."],
   "You are an IT project manager for an organization where senior management is risk averse. Partway through an implementation proj":
     ["FFP"],
   "You are an agile coach attending a meeting at the beginning of a release, and you observe that the meeting has been quite produc":
@@ -3920,6 +3948,8 @@ quiz = {
       "They should use Paired Comparison to prioritize various factors at a time.",
       "They should use the 100-Point Method, which distributes 100 points across the user stories.",
     ],
+  "You are troubleshooting a LAN switch and have identified the symptoms. What is the next step you should take?":
+    ["Escalate the issue."],
   "You are trying to determine whether to outsource an activity to a vendor by considering the cost implications, availability of r":
     ["Make or buy analysis"],
   "You are working at the IT help desk when a user calls to report that he cannot access the Internet, although he can connect to the computers on the local network. At the user's workstation, you run the ipconfig /all command and examine the output. Which of the following options is the most likely explanation for the user's problem, based on the given ipconfig results?\n\n\nStart of code block\nWindows IP Configuration\n\n  Host Name . . . . . . . . . . . . : Client12\n  Primary Dns Suffix  . . . . . . . :\n  Node Type . . . . . . . . . . . . : Hybrid\n  IP Routing Enabled. . . . . . . . : No\n  WINS Proxy Enabled. . . . . . . . : No\n\nEthernet adapter Local Area Connection:\n\n  Connection-specific DNS Suffix  . :\n  Description . . . . . . . . . . . : PCIe Family Controller\n  Physical Address. . . . . . . . . : 60-EB-69-93-5E-E5\n  DHCP Enabled. . . . . . . . . . . : No\n  Autoconfiguration Enabled . . . . : Yes\n  Link-local IPv6 Address . . . . . : fe80::c955:c944:acdd:3fcb%2\n  IPv4 Address. . . . . . . . . . . : 192.168.23.234\n  Subnet Mask . . . . . . . . . . . : 255.255.255.0\n  Lease Obtained. . . . . . . . . . : Monday, October 23, 2017 6:23:47 PM\n  Lease Expires . . . . . . . . . . : Saturday, November 18, 2017 9:49:24 PM\n  Default Gateway . . . . . . . . . : 192.168.216.99\n  DHCPv6 IAID . . . . . . . . . . . : 241232745\n  DHCPv6 Client DUID  . . . . . . . : 00-01-00-01-18-10-22-0D-60-EB-69-93-5E-E5\n  DNS Servers . . . . . . . . . . . : 192.168.22.114\n  NetBIOS over Tcpip. . . . . . . . : Enabled\nEnd of code block":
@@ -3956,6 +3986,8 @@ quiz = {
     ["3"],
   "You have a table FURNISHINGS and are told to grant DELETE privileges on the table to user HEARST. Examine the following SQL statements:\n\n\nGRANT DELETE ON FURNISHINGS TO HEARST;\nCREATE ROLE MGR;\nGRANT DELETE ON FURNISHINGS TO MGR;\nGRANT MGR TO HEARST;\n\nNow you are told to change the privileges given to HEARST so that HEARST can no longer execute DELETE statements on the FURNISHINGS table. Which of the following will accomplish the goal? (Choose the best answer.)":
     ["REVOKE DELETE ON FURNISHINGS FROM HEARST, MGR;"],
+  "You have a user who cannot connect to the network. What is the first thing you could check to determine the source of the problem?":
+    ["Connectivity"],
   "You have an expected activity duration of 26 days, optimistic value of 18 days, and pessimistic value of 67 days":
     ["31.5 days"],
   "You have been dealing with a client who requests changes frequently, despite there being a detailed initial plan in place with s":
@@ -3988,16 +4020,26 @@ quiz = {
     ["This is known as single source contracting."],
   "You have decided to outsource the work and sign a CPPC contract with a vendor. What will be your biggest concern throughout the":
     ["Cost"],
+  "You have gathered information on a network issue and determined the affected areas of the network. What should be your next step to resolve this issue?":
+    [
+      "You should check if there have been any recent changes to this affected part of the network.",
+    ],
   "You have hired a vendor to perform certain activities on your project. Which of the following is not true regarding early termin":
     ["Your vendor can terminate the contract for convenience."],
+  "You have implemented and tested a solution and identified any other effects that the solution may have. What is your next step?":
+    ["Document the solution."],
   "You have just created a user called bsmith. Which command would you execute to grant a privilege that will allow the bsmith account to connect to the database?":
     ["Grant create session to bsmith;"],
+  "You have just implemented a solution to the problem and, now, you want to celebrate your success. Before doing so, what should you do?":
+    ["Test the solution and identify other effects it may have."],
   "You have rolled onto a project where the customer has not been very happy with the progress. The scope of the project has not be":
     ["Cost management plan"],
   "You have the following metrics on your project so far: PV = $63,000; EV = $61,000; AC = 62,000.":
     ["You are over budget and behind schedule."],
   "You have two tables. One table is called CUSTOMERS. Another is called PURCHASES, and it records a list of customer transactions. Your goal is to create a SELECT statement that will show all customers by last name in alphabetical order, along with any purchases they may have made in the past two weeks, as recorded in the PURCHASES table. It's possible that many customers have made no purchases in the past two weeks, but you still want them included in the output. Both tables contain a column called CUSTOMER_ID. Which of the following will be true of the SELECT statement you'll need to create? (Choose two.)":
     ["It will be an equijoin.", "It will be an outer join."],
+  "You lose power to your computer room, and the switches in your network do not come back up when everything is brought online. After you have identified the affected areas, established the cause, and escalated this problem, what should be your next step?":
+    ["Meet with the emergency response team to determine the next step."],
   "You managed a project to remodel a customer's house. After only a month, the customer calls you complaining that the internal do":
     [
       "External failure cost because the product has been delivered to the customer",
@@ -4016,6 +4058,8 @@ quiz = {
     ["Corrective action"],
   "You notice that two team members are having a really hard time implementing their user stories. As you investigate further, you":
     ["Break down the large user stories into smaller user stories."],
+  "You receive a call from a user who is having issues connecting to a new VPN. Which is the first step that you should take?":
+    ["Identify the symptoms and potential causes."],
   "You run the following query from the SQL prompt:\n\n\nSQL> select sysdate from dual;\n\nand get the following results:\n\n\nSYSDATE\n---------\n13-NOV-17 \n\nYou want the output to look like the following:\n\n\nSYSDATE\n-------------------\n11/13/2017 13:09:10 \n\nWhich of the following SQL statements will create the output you desire?":
     ["select to_char(sysdate, 'mm/dd/yyyy hh24:mi:ss') \"SYSDATE\" from dual;"],
   "You were assigned as the project manager for the ISHU project and well into the":

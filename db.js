@@ -13,14 +13,20 @@ quiz = {
     ],
   "A company has provided kiosks to employees within the organization's boundaries. However, some of the kiosks are in close proximity to a shopping center. The management is concerned about someone accessing the Internet via the kiosk's wireless network. The network technician has been asked to implement a solution that will provide wireless access only to the employees working at the kiosk. Which of these should the network technician implement?":
     ["Switch port security"],
+  "A company is concerned about the possible attacks on its network by the attackers to gain access to confidential research data. Which of these is a type of vulnerable system that could be implemented to redirect any attackers on the network?":
+    ["Honeypot"],
   "A company is setting up a new branch office. The new office will have two departments, Finance and Engineering. The Finance department will have 55 employees and the Engineering department will have 5 employees. The IP subscribed from the ISP is 192.168.1.0/29. The network administrator is configuring the subnets for the two departments starting with the Finance department. What will be the last host address on the Engineering subnet?":
     ["192.168.1.78"],
+  "A company provides its sales managers access to the company's network from remote locations. The sales managers use laptops to connect to the network. For security purposes, the company's management wants the sales managers to log on to the network using smart cards over a remote connection. Which authentication protocol should be used to accomplish the goal mentioned in the given scenario?":
+    ["EAP"],
   "A company recently faced an attack on its network infrastructure. On further inspection, it was found that the attacker exploited the vulnerabilities resulting from open switch ports. The CIO has instructed the network administrator that he not only wants the network to be secure but also would like to monitor any attack in the future. Which of these should the network administrator implement to achieve the goal mentioned in the given scenario?":
     ["Create a VLAN with honeypots."],
   "A company wants a cloud service solution that can provide a deployment platform for its applications, and it doesn't need to worry about the infrastructure requirements. Which of the following cloud services should be used for the purpose mentioned in the given scenario?":
     ["PaaS"],
   "A company wants to secure its WLAN network by implementing a method that will provide a web page before the users ask for authentication credentials while allowing them access to the network. Which of these will help in satisfying this requirement?":
     ["Captive portal"],
+  "A company's management has given a list of requirements to the network technician for a LAN connection using CAT6 cabling in an older building. The technician has to keep the environmental factors in mind during the network installation. Which of these should the network technician consider while deciding whether or not to use plenum-rated cables?":
+    ["Ceiling airflow condition"],
   "A control account is typically used to identify actual cost to the budget and can be used":
     ["True"],
   "A correlated subquery:": ["Cannot be executed as a standalone query"],
@@ -67,16 +73,26 @@ quiz = {
     ["Firmware update"],
   "A network technician has been given permission to exploit a weakness in the company's network. Which process is described in the given scenario?":
     ["Penetration testing"],
+  "A network technician has configured a VLAN for the Sales and Accounts department of a company. The users of each department are located on different floors of the office. The network technician decides to educate the users regarding the VLAN configuration. Which of these will help the network technician to easily make the users understand the VLAN configuration?":
+    ["Physical network diagram"],
+  "A network technician has recently installed a new wireless access point on the company's wireless network. All the settings for the new access point were copied from the baseline. Due to this change, the network technician is getting reports from the sales department that they are having irregular wireless connectivity, while other departments are having no such problem. What can be the possible cause of the issue mentioned in the given scenario?":
+    ["Incorrect AP placement"],
   "A network technician has to perform maintenance on many of the company's web servers during a scheduled change window. This maintenance should not affect the service availability. Which of the following network devices should the network technician use for this purpose?":
     ["Load balancer"],
   "A network technician has to set up a firewall on a company's network that would assign private IP addresses to users inside the network and show a public IP address out to the Internet. Which of these should the network technician use to achieve this goal?":
     ["NAT"],
+  "A network technician in a company has to assist a security team that wants to capture all traffic on a single subnet between the router and the core switch. The team has to ensure that there is only a single collision and a broadcast domain between the router and the switch to collect the traffic easily. Which of the following devices should the technician install to meet the goal mentioned in the given scenario?":
+    ["Hub"],
   "A network technician in a company has to create a subnet for 500 host machines. The technician is instructed to use a class B address scheme and leave possible rooms for additional subnets of the same size. Which of the following addresses would fulfill these requirements?":
     ["172.18.0.0/23"],
+  "A network technician is receiving complaints from the management board that they are unable to do meetings from the conference room. The network is too slow, and there are frequent disconnections. The network technician finds that the conference room and cafeteria are located on either side of a single hallway where there is only one access point. He also observers that there is a large number of people in the cafeteria. Which of these best describes the cause of the issue mentioned in the given scenario?":
+    ["Overcapacity"],
   "A network technician is setting up a new wireless network. With the WPA2 standard in use, which of these will provide both data confidentiality and data integrity?":
     ["AES", "CCMP"],
   "A network technician is setting up a wireless access point for a SOHO location. The user has demanded exclusive use of the 5GHz band. Which of the following wireless standards should the network technician use for the purpose mentioned in the given scenario?":
     ["802.11ac"],
+  "A network technician is troubleshooting a wireless connectivity issue in a small building where the tenants access multiple wireless networks. The users report intermittent connectivity. Which of the following is the most likely cause of the problem?":
+    ["Channel overlap"],
   "A network technician, while troubleshooting a Linux system, wants to display the associated IP address of a network adapter. Which of the following commands should he use?":
     ["ifconfig"],
   "A new director joins your organization, and you know that this director's division will be highly impacted by your project. What":
@@ -155,10 +171,16 @@ quiz = {
     [
       "The purpose of Validate Scope is to allow the team to test the deliverable to ensure it meets all requirements.",
     ],
+  "A technician is setting up a direct connection between two older PCs so they can communicate but not be on the corporate network. The technician does not have access to a spare switch but does have spare Cat 6 cables, RJ-45 plugs, and a crimping tool. The technician cuts off one end of the cable. Which of the following pin mappings represent what the technician should do to make a crossover cable before crimping the new plug?":
+    ["1 > 3, 2 > 6, 3 > 1, and 6 > 2"],
   "A technician is troubleshooting a customer's network connectivity issue. He needs to determine the IP address of the customer's router. The customer has an IP address of 192.168.1.55/24. Which of these is the address of the customer's router?":
     ["192.168.1.1"],
+  "A technician is troubleshooting a point-to-point fiber-optic connection at a remote site of a company that has no connectivity to the main site. The technician verifies that the switch and the send-and-receive light levels are within an acceptable range. Also, both fiber SFPs are confirmed as working. Which of these should the technician use to reveal the location of the fault?":
+    ["OTDR"],
   "A typical example of interval scale measurement is the temperature on the Celsius scale.":
     ["True"],
+  "A user has performed multiple JSON and XML edits. Which of the following layers of the OSI model relates to the given operation?":
+    ["Presentation"],
   "A user reports an issue to a network technician that he is unable to connect to the server. The user has Linux OS installed on his system. Which of the following commands should the network technician use to test the connectivity issue between two network devices?":
     ["ping"],
   "A(n) _____________ is a collection of neurons that takes inputs from the previous layer and converts those inputs into outputs for further processing.":
@@ -166,11 +188,15 @@ quiz = {
   "AI (artificial intelligence) has the capability to find hidden patterns in a variety of data sources to identify problems and provide potential solutions.":
     ["True"],
   "APC connectors can be used only with other APC connectors.": ["True"],
+  "According to the OSI model, which of the following layer devices include more complex switches and routers?":
+    ["Layer 3"],
   "Actual cost is the measurement of work completed based on the plan value.": [
     "False",
   ],
   "Ad hoc networks are created peer to peer or directly between stations and not through an AP.":
     ["True"],
+  "Adam, a user, reports to you that he is unable to communicate with a particular IP address on the company's network. You have addressed the issue and, now, you need to find where the traffic is stopping. Which of the following commands will you use?":
+    ["tracert"],
   "After a lengthy discussion and debate with your stakeholders, you have finally agreed on the quality standards that the team mus":
     ["Update the quality management plan."],
   "After a lessons learned exercise, there are a number of ways to make sure of the results. Of the following, which would be omitt":
@@ -187,6 +213,8 @@ quiz = {
     [
       "To describe how the scope will be defined, developed, monitored, controlled, and validated.",
     ],
+  "Agentless SIEM relies on packet captures or remote access protocols, such as SNMP and Syslog.":
+    ["True"],
   "Agile projects have epics and features. However, when it comes to features, they may have more than one user story applied to th":
     ["True"],
   "Agile uses a far more flexible scheduling approach by using time boxes or windows between the ceremonies. Which of the following":
@@ -256,6 +284,8 @@ quiz = {
     ["Provide an MD5 hash for each file."],
   "Ann, a network technician, has to implement a physical security control that will allow her to detect any intrusion into the server room. Which of the following physical security controls will be most suitable for the purpose mentioned in the given scenario?":
     ["CCTVs"],
+  "Ann, a network technician, is replacing the existing cables in her company's remote location. She has to re-install a new cabling solution that will have 10 Gbps speed and can also be run between the structural and drop-down ceilings providing safety in case of fires. Which of these will best meet the requirement of Ann?":
+    ["Plenum, Cat 6a"],
   "Another name for an EXISTS query is:": ["Semijoin"],
   "Another way to describe the scope baseline is that it is the current expected work to be":
     ["False"],
@@ -347,6 +377,8 @@ quiz = {
     "To assure that there is compliance with organizational requirements.",
     "To offer productivity improvements on the existing project.",
   ],
+  "Authorization is vital, especially against insider attacks, and as long as any access is associated with a specific user, that user can be assigned specific permissions.":
+    ["True"],
   "Automatic summarization is a program that is used to assign documents into a predefined set of categories.":
     ["False"],
   "BCNF (Boyce-Codd normal form) was proposed as a simpler form of": ["3NF"],
@@ -415,6 +447,9 @@ quiz = {
     ["False"],
   "Consider the following SQL statement:\n\n\nSELECT SOUNDEX('Donald') FROM DUAL;\n\nWhich of the following is most likely to be the output of this SELECT statement? (Choose the best answer.)":
     ["D543"],
+  "Consider the following command:": [
+    "The users can use these options to change the command's functions.",
+  ],
   "Consider the following data in a table called PARTS:\n\n\nPNO  PART_TITLE       STATUS \n---  ---------------- -------   \n1  PROCESSOR V1.0   VALID   \n2  ENCASEMENT X770  PENDING   \n3  BOARD CPU XER A7 PENDING\n\nWhich of the following SQL statements will remove the word VALID from row 1, resulting in one row with a status of NULL and two rows with a status of PENDING?":
     ["None of these"],
   "Consider the following query, its output, and a subsequent query:\n\n\nSQL> SELECT * FROM LINE_ITEMS; \nLINE_ITEM  PRICE \n---------  -----       \n      100   4.12       \n      210          \n      184   7.07 \n\nSQL> SELECT NVL(PRICE,10) FROM LINE_ITEMS;\n\n\nWhat is true of the final query shown previously?":
@@ -492,6 +527,8 @@ quiz = {
     ["False"],
   "Delta (or an error) is defined as the difference between the network weights in two consecutive iterations.":
     ["False"],
+  "Depending on the transmission rate, what is the effective range of multimode fibers?":
+    ["500-2000 m"],
   "Descriptive analytics is also called business intelligence that is the entry level in analytics taxonomy.":
     ["True"],
   "Developing a project scope statement requires a series of tools. Of the following, which one is least likely to be a tool for th":
@@ -523,6 +560,8 @@ quiz = {
     ],
   "During a sprint review, the project team reviews all of the progress with the project leader or Scrum master to make sure things":
     ["False"],
+  "During lengthy outages, a UPS is an ideal way to prevent interruption while the users turn on the generator.":
+    ["True"],
   "During lessons learned, the team's staff and external suppliers may be involved":
     [
       "Components of the project that were defects mostly due to typographical issues",
@@ -666,6 +705,11 @@ quiz = {
     [
       "The project manager is focused on the overall project performance. The Scrum master is focused on guiding the core team through the Scrum process. The product owner is focused on the product being delivered.",
     ],
+  "How is the core of information security commonly summed up?": [
+    "By the CIA triad",
+  ],
+  "How many broadcast domains are created when an unmanaged 12-port switch is used?":
+    ["1"],
   "How many sequential steps exist in the CRISP-DM methodology?": ["Six"],
   "How many tables can be joined in a query?": ["One, two, three, or more"],
   "How would you best classify the cost of raw materials on a project?": [
@@ -698,10 +742,14 @@ quiz = {
     ["Risk-tolerant"],
   "If senior management doesn't want you to spend time writing a project charter":
     ["Review the benefits of the project charter with them."],
+  "If the binary values are of 8-bits, the users show the full eight digits even if it starts with 0.":
+    ["True"],
   "If the validation phase is successful, the transaction updates are applied to the database; otherwise, the updates are discarded and the transaction is":
     ["Write"],
   "If there are several different decisions to be made and the consequences of each affect the next decision, what would be the bes":
     ["Decision tree"],
+  "If there is a difference of 1 dB between two signals, then what will be its ratio?":
+    ["1.26"],
   "If you are using an ORDER BY to sort values in descending order, in which order will they appear?":
     [
       "If the data type is character, the value 'Michael' will appear first before the value 'Jackson'.",
@@ -715,6 +763,8 @@ quiz = {
   ],
   "In UML terminology, relationship types are called": ["associations"],
   "In UML terminology, relationship types are called as": ["associations"],
+  "In a NetFlow system, what are the devices that identify network flows called?":
+    ["Flow exporters"],
   "In a more predictive environment, the project manager is more likely to outline expectations and direct the team members' and co":
     ["True"],
   "In a typical neural network, the goal of the testing process is to adjust the network weights and biases such that the network output for each set of inputs is adequately close to its corresponding target value.":
@@ -849,6 +899,8 @@ quiz = {
     ["Taking notes during a stakeholder's status meeting"],
   "In which of the following states does a transaction execute its READ and WRITE operations?":
     ["Active"],
+  "In which of the following types of assessments do the users need to consider security risks through the supply chain?":
+    ["Vendor"],
   "In which stage of the Tuckman Ladder team development model do initial conflicts emerge?":
     ["Storming"],
   "In which step of the Six Sigma process is the assessment of the project outcomes carried out?":
@@ -882,8 +934,16 @@ quiz = {
   ],
   "James, a network engineer, is asked to implement a network encompassing the five-block town center and nearby businesses. The inclusion of smartphones and portable devices is crucial to the plan. Which of the following networks will James implement?":
     ["MAN"],
+  "Jane, a user on a company's network, is not able to access the shared printer and other resources. However, she can reach the Internet. Other users are not having any such problem. What can be the cause of the issue mentioned in the given scenario?":
+    ["Incorrect VLAN assignment"],
+  "Jennifer, a network administrator, is troubleshooting an expansion card in a computer that allows the computer to receive faxes over a VoIP line. Which of the following cable types is used to connect the line to the expansion card?":
+    ["CAT6"],
+  "Jennifer, a network analyst, has been tasked to limit the users that can connect to a network printer located centrally within an office environment. Which of the following tools will Jennifer use to complete this task?":
+    ["ACL"],
   "Jim, the marketing manager in the company, is interested in the sales numbers in the south region by each product type for the last six months. What type of analytics would you use to help him?":
     ["Descriptive"],
+  "Joey, a security analyst, is tasked to implement multi-factor authentication in a company. On the basis of the authentication factors, which of the following are the best implementations that he should deploy?":
+    ["Biometrics, smart cards, and strong passwords"],
   "Knowledge transfer occurs between team members both intentionally and unintentionally. The organization will benefit least from":
     ["Templates for all portions of the process to expedite the work"],
   "Last-minute changes were made recently to the training plan due to additional scope requirements. This is an acceptable choice t":
@@ -922,6 +982,8 @@ quiz = {
       "Insert into employees (Employee_id, Name, Designation) values (101, 'Richard', 'Database developer');",
       "Insert into employees values (101, 'Richard', 'Database developer');",
     ],
+  "Markus, a network analyst, wants to create broadcast domains to eliminate the need for expensive routers. Which of these will help him to accomplish the task?":
+    ["VLAN"],
   "Members of a basic service set share a 48-bit identifier compatible with the MAC standard and included in every Wi-Fi frame sent by its members. What is this identifier called?":
     ["BSSID"],
   "Model ensembles are known to be more robust against outliers and noise in the data compared to individual models.":
@@ -930,15 +992,21 @@ quiz = {
     ["False"],
   "Moving from a common workspace to remote work has been more common for several years. There are a number of advantages for both":
     ["Increases the level of communication and trust"],
+  "Multicast addressing enables multiple recipients to receive messages without flooding the messages to all hosts on a broadcast domain.":
+    ["True"],
   "Multicollinearity can be triggered by having two or more perfectly correlated explanatory variables present in the model.":
     ["True"],
   "Multilayer perceptron type deep networks are also known as feedforward networks because the flow of information that goes through them is always forwarding, and no feedback connections are allowed.":
+    ["True"],
+  "Multiple lower bit rate streams are combined by a device called a multiplexer.":
     ["True"],
   "NAT is great to have around when an organization changes its ISP and the networking manager doesn't want the hassle of changing the internal address scheme.":
     ["True"],
   "NFV is the process of taking networking functions (such as routers, switches, firewalls, load balancers, and controllers) and virtualizing them.":
     ["True"],
   "Network taps and port mirrors should be placed on chokepoints for critical traffic.":
+    ["True"],
+  "Networks commonly apply cryptographic protections where an attack is most likely to occur, for authentication processes, for particular types of traffic, or specific physical network segments.":
     ["True"],
   "Novel is a key term in the definition of data mining, which means that the patterns are known by the user within the context of the system being analyzed.":
     ["False"],
@@ -1024,6 +1092,8 @@ quiz = {
   ],
   "Often, project teams are expected to provide an interpretation of results and status over time. Of the following, when you're wo":
     ["Work performance expectations"],
+  "On Wi-Fi networks, both WEP and WPA-TKIP use the RC4 cipher, but WEP's implementation is far more vulnerable to attack.":
+    ["True"],
   "On the network, you don't just need to know what the matter is, but you need to know how many users are affected. Which of the following steps of problem identification is explained in the given information?":
     ["Identify the symptoms."],
   "One of the characteristics of an agile project is that the team is continuously trying to find ways of improving efficiency. Whi":
@@ -1115,6 +1185,7 @@ quiz = {
     [
       "Managing is primarily concerned with consistently producing key results expected by stakeholders.",
     ],
+  "Repeaters are used to extend the range of wireless networks.": ["True"],
   "Repeating the message is an example of?": ["Feedback"],
   "Resource assignments should occur based on team members assigned to the project, roles and responsibilities, a team directory, o":
     ["True"],
@@ -1374,6 +1445,8 @@ quiz = {
     ],
   "Risks are broken into two main categories: positive risks that are called opportunities and negative risks that are called threa":
     ["True"],
+  "Roy, a network administrator, needs to delete the DNS cache and the current cache that has incorrect entries. Which of the following parameters will he use?":
+    ["/flushdns"],
   "SCM and ERP are the first two beneficiaries of the NLP and WordNet.": [
     "False",
   ],
@@ -1403,6 +1476,8 @@ quiz = {
     ["True"],
   "Sensitivity analysis based on the leave-one-out methodology can be applied to any predictive analytics method because of its model agnostic implementation methodology.":
     ["True"],
+  "Services, such as DNS and DHCP, rely on the rapid exchange of small amounts of data rather than extended conversations.":
+    ["True"],
   "Several knowledge transfer techniques can be used to help organizations retain information and experience between staff. What ar":
     ["Facilitating special interest groups", "Work shadowing"],
   "Several people are helping to plan an 80th birthday party for a family member":
@@ -1414,6 +1489,8 @@ quiz = {
     ["Photocopier"],
   "Singular value decomposition help reduce the overall structure of the term-document matrix to a lower dimensional space for further pattern/knowledge discovery.":
     ["True"],
+  "Smith, a network administrator, is hardening an authentication server. One of the primary requirements is to manage access control to several services by using one centralized authentication server. Which of the following technologies should Smith configure?":
+    ["Kerberos"],
   "Some connections use intelligent demarc that performs signal translation or routing.":
     ["True"],
   "Some of the advantages of using time boxes and cycles in project coordination efforts include creating urgency, measuring progre":
@@ -1424,10 +1501,16 @@ quiz = {
     ["False"],
   "Stakeholders not only need to be identified but also need to be classified. Of the following":
     ["Newer/established"],
+  "Static routing does not scale well in large networks, but dynamic routing does. Why is it so?":
+    [
+      "Because network routes are automatically added to the routing table via the routing protocol",
+    ],
   "Structured data is usually organized into records with simple data values that include __________, __________, and __________ variables.":
     ["categorical", "continuous", "ordinal"],
   "Switches can create multiple broadcast domains by partitioning the network into the software. What are these domains called?":
     ["VLANs"],
+  "Syslog uses a relatively simple client-server model.": ["True"],
+  "TCP's data unit is called a router.": ["False"],
   "TRUNCATE TABLE:": [
     "Is a valid set of keywords to be used within a DDL statement",
   ],
@@ -1516,6 +1599,8 @@ quiz = {
     ["False"],
   "The changes applied to a database by a committed transaction must persist in the database. These changes must not be lost because of any failure.":
     ["Durability"],
+  "The chief information officer has noticed that the corporate wireless signal is available in the parking lot. Now, the management requests the network administrator to change the wireless network so that it is no longer accessible in public areas without affecting the availability inside the building. Which of these should the network administrator change on the wireless network?":
+    ["Power levels"],
   "The concept of continuous improvement attends to uniform sales and consistent design, and maintains product quality.":
     ["False"],
   "The concept of servant leadership was new to your team because they focused on predictive project management in the past and now":
@@ -1564,6 +1649,8 @@ quiz = {
     [
       "The person most likely to hold to the process outlined in the past to assure continuity",
     ],
+  "The end goal of network security is minimizing the risk to critical assets. However, to calculate risk, the users need to know what threats they face and where the network is vulnerable.":
+    ["True"],
   "The exam is timed.": ["True"],
   "The final project report contains all of the following information except which one?":
     ["A summary and official authorization for the project to begin"],
@@ -1577,6 +1664,8 @@ quiz = {
     ["True"],
   "The important troubleshooting process for Network+ is CompTIA's five-step model.":
     ["False"],
+  "The internal DNS servers contain the complete list of records but respond only to requests from clients inside the network.":
+    ["True"],
   "The inverse-square law applied to antenna placement dictates that if the distance from the antenna to the receiving device is doubled, then the signal will drop by how much?":
     ["6 dB"],
   "The main aim of NLP is to move away from word counting to a real understanding and processing of natural human language.":
@@ -1693,6 +1782,8 @@ quiz = {
   ],
   "The simplest repeater has ports listening in two directions along a cable.":
     ["True"],
+  "The simplest way of signaling is by encoding it into a single binary signal and transmitting it along a wire or fiber optic cable.":
+    ["True"],
   "The skills of a surgical technician are an example of which type of attribute?":
     ["Multivalued attribute"],
   "The smallest segment of work that may be produced at a given time and that still provides some value is essentially the definiti":
@@ -1759,6 +1850,8 @@ quiz = {
     ["True"],
   "The term veracity in big data analytics refers to the processing of different types and formats of data, structured and unstructured.":
     ["False"],
+  "The terms virus and worm are often used interchangeably and are therefore easily confused. How are they differentiated?":
+    ["On the basis of how they are spread"],
   "The topic of organizational theory is focused on how people, teams, and organizations behave.":
     ["True"],
   "The transport layer of the OSI model translates the data between network packets and also the data used by applications.":
@@ -1777,6 +1870,8 @@ quiz = {
   "The use of a product backlog would be an agile artifact.": ["True"],
   "The use of shared task boards, videoconferencing, lessons learned repositories, and chat functions all increase collaboration.":
     ["True"],
+  "The users in a company have reported intermittent connectivity issues. When the network technician asked the users to detail the issue, they said the issue is frequent, happens anytime, and the cause is unknown. While troubleshooting, the network technician discovered that the Ethernet cable was running parallel to the electric cable. What can be the cause of the issue mentioned in the given scenario?":
+    ["EMI"],
   "The users would use a bridge in a network to reduce collisions within broadcast domains and to increase the number of collision domains in their network.":
     ["True"],
   "There are different factors causing a particular issue, and you want to find the root cause. You look at a chart that lists all":
@@ -1813,6 +1908,8 @@ quiz = {
       "Note all details of the specific product features that this client requested.",
     ],
   "Time series is a sequence of data points of interest measured and represented at consecutive and regular time intervals.":
+    ["True"],
+  "To create subnetworks, the users take bits from the host portion of the IP address and reserve them to define the subnet address.":
     ["True"],
   "To deploy a developed SVM model, the model coefficients can be extracted and integrated directly into the decision support system.":
     ["True"],
@@ -2320,6 +2417,10 @@ quiz = {
   ],
   "Which is the process of classifying a class of objects into more specialized subclasses?":
     ["Specialization"],
+  "Which layer 1 technology allows a single primary rate interface to deliver multiple voice calls simultaneously?":
+    ["TDM"],
+  "Which layer of the OSI model performs the process-to-process communication using segments?":
+    ["Transport"],
   'Which lines need to be changed to make the code compile?\n\n\nStart of code block\nExecutorService service =   // w1\n   Executors.newSingleThreadScheduledExecutor();\nservice.scheduleWithFixedDelay(() -> {\n   System.out.println("Open Zoo");\n   return null;   // w2\n}, 0, 1, TimeUnit.MINUTES);\nvar result = service.submit(() ->   // w3\n   System.out.println("Wake Staff"));\nSystem.out.println(result.get());   // w4\n\nEnd of code block':
     ["Line w1", "Line w2"],
   "Which list best describes an agile development approach?": [
@@ -2347,6 +2448,8 @@ quiz = {
     ["Constructing"],
   "Which of the following DML operations are available when using a merge command (choose all that apply)?":
     ["Delete", "Insert", "Update"],
+  "Which of the following IEEE 802.3 standards supports up to 30 workstations on a single segment?":
+    ["10Base2"],
   "Which of the following IP addresses is a local host that the router has already spotted via Ethernet traffic and added to the table?":
     ["192.168.100.24"],
   "Which of the following IP addresses is reserved for private use?": [
@@ -2356,6 +2459,8 @@ quiz = {
     ["Java Servlet"],
   "Which of the following Java technologies for database Web programming are Java objects that can reside on the Web server machine and manage interactions with the client?":
     ["Java servlets"],
+  "Which of the following SNMP versions has no significant security features, and the devices only respond to messages containing the correct community name string?":
+    ["SNMPv1"],
   "Which of the following SQL statements can always be executed on any VIEW object?":
     ["SELECT"],
   "Which of the following SQL statements creates a table that will reject attempts to INSERT a row with NULL values entered into the POSITION_ID column?":
@@ -2486,6 +2591,10 @@ quiz = {
     ],
   "Which of the following are not components of the project management plan? (Choose two.)":
     ["Requirements documentation", "Risk register"],
+  "Which of the following are not considered link-state routing protocols?": [
+    "RIP",
+    "RIPv2",
+  ],
   "Which of the following are not part of the scope baseline? (Choose two.)": [
     "Requirements",
     "Tasks",
@@ -2661,6 +2770,8 @@ quiz = {
     ["Locally concentrated workforces"],
   "Which of the following devices should a network administrator configure on the outermost part of a network?":
     ["Firewall"],
+  "Which of the following disasters is not included in the accidents and disasters category during threat assessment?":
+    ["Equipment failure"],
   "Which of the following does not represent the SMART criteria?": [
     "Analytical",
   ],
@@ -2668,6 +2779,8 @@ quiz = {
     ["$_SERVER['REMOTE_HOST']"],
   "Which of the following factors refers to a model's ability to make reasonably accurate predictions, given noisy data or data with missing and erroneous values?":
     ["Robustness"],
+  "Which of the following fields in the IPv4 packet specifies the current hop limit?":
+    ["TTL"],
   "Which of the following file allocation techniques allocates file blocks to consecutive disk blocks?":
     ["Contiguous"],
   "Which of the following files keeps the records ordered by the value of a particular field?":
@@ -2698,6 +2811,8 @@ quiz = {
     ["COUNT"],
   "Which of the following functions will take a character string as an argument and then return that character string in a modified form?":
     ["All of these"],
+  "Which of the following incident goals ensures that incident prevention and response follow the organization's policies plus any relevant laws, business agreements, or generally expected industry practices?":
+    ["Regulatory compliance"],
   "Which of the following indexes requires that the ordering field of the data file has a distinct value for each record as well as records are of fixed length with":
     ["Primary"],
   "Which of the following information are required for query retrieval?": [
@@ -2777,6 +2892,8 @@ quiz = {
   ],
   "Which of the following is not an analytic function? (choose all that apply)":
     ["All of these are analytic functions."],
+  "Which of the following is not an example of using network segmentation to control traffic through the internal network?":
+    ["Enable DHCP snooping, dynamic ARP inspection, and (for IPv6) RA guard."],
   "Which of the following is not commonly used as an enabler of descriptive analytics?":
     ["Data mining"],
   "Which of the following is not considered as a key component of Hadoop?": [
@@ -2871,6 +2988,8 @@ quiz = {
   "Which of the following languages specifies the internal schema?": ["SDL"],
   "Which of the following layer 1 devices connects multiple nodes into a star configuration?":
     ["Hub"],
+  "Which of the following layers of the OSI model provides delivery and formatting of information for processing and display?":
+    ["Presentation"],
   "Which of the following layers of the OSI model translates physical layer bits to and from ordered packets called frames, transfers them between nodes, and optionally receives acknowledgment of their receipt?":
     ["Data link"],
   "Which of the following leased line has a maximum data rate of 1.544 Mbps?": [
@@ -2881,6 +3000,12 @@ quiz = {
   "Which of the following locks is used to lock the entire database?": [
     "Global",
   ],
+  "Which of the following methods are available for hardening network devices?":
+    [
+      "Apply all firmware security updates.",
+      "Disable unnecessary services to prevent their compromise.",
+      "Disable unnecessary switch ports and network interfaces to prevent unauthorized connections.",
+    ],
   "Which of the following methods are used for collision resolution?": [
     "Chaining",
     "Multiple hashing",
@@ -2961,6 +3086,8 @@ quiz = {
   "Which of the following protocols allows active-active load balancing?": [
     "GLBP",
   ],
+  "Which of the following protocols is not included in the network layer of the OSI model?":
+    ["SPX"],
   "Which of the following provides an explanation for an individual data point of the joint distribution of independent variables?":
     ["Local interpretability"],
   "Which of the following quality concepts were promoted by Crosby and Juran, respectively?":
@@ -2997,6 +3124,8 @@ quiz = {
     ["Conceptual schema"],
   "Which of the following schemas is the global schema or view, which is the result of integrating all the shareable export schemas?":
     ["Federated"],
+  "Which of the following security features is designed to prevent DoS and reconnaissance attacks, which utilize the control plane of software-defined networks?":
+    ["CoPP"],
   "Which of the following sequences of tasks represents the text mining process?":
     ["Establish the corpus, preprocess the data, and extract the knowledge."],
   "Which of the following services provides the desktop and other resources?": [
@@ -3023,6 +3152,10 @@ quiz = {
   "Which of the following statements are not true about the OSI model?": [
     "It describes network communication in terms of the underlying network technology or structure.",
     "It is a suite of protocols that serves as the world's primary network standard.",
+  ],
+  "Which of the following statements are true about SSH?": [
+    "It is an encrypted replacement for telnet and FTP.",
+    "It uses TCP port 22.",
   ],
   "Which of the following statements are true about a hub?": [
     "A hub has no memory for storing data.",
@@ -3152,9 +3285,19 @@ quiz = {
   "Which of the following statements is true about STP?": [
     "It is standardized as IEEE 802.1D.",
   ],
+  "Which of the following statements is true about TDM?": [
+    "The muxer and demuxer must be firmly synchronized.",
+  ],
   "Which of the following statements is true about VLANs?": [
     "They aren't a single standard but rather a collection of method switches that can be used to partition broadcast domains.",
   ],
+  "Which of the following statements is true about a learning bridge?": [
+    "It can use the network's traffic to teach itself the location of any given address.",
+  ],
+  "Which of the following statements is true about a quick termination connector?":
+    [
+      "It is a connector with a factory-polished ferrule already containing a fiber stub.",
+    ],
   "Which of the following statements is true about a self join? (choose all that apply)":
     [
       "A self join does not always require a where clause.",
@@ -3168,8 +3311,20 @@ quiz = {
     [
       "The server hosting resources ask for credentials, and the client provides them.",
     ],
+  "Which of the following statements is true about biometrics?": [
+    "Inherence elements that are based on personal physical characteristics are called biometrics.",
+  ],
   "Which of the following statements is true about clustering?": [
     "Assigns customers to different segments",
+  ],
+  "Which of the following statements is true about fire suppression?": [
+    "Class A (flammable solids), Class B (flammable liquids), and Class D (combustible metal) extinguishers should only be placed or used near fire hazards of their appropriate types.",
+  ],
+  "Which of the following statements is true about insertion loss?": [
+    "0 dB would indicate a perfect and a lossless connection.",
+  ],
+  "Which of the following statements is true about non-repudiation?": [
+    "The authenticity is verified in a way that even its creator can't dispute.",
   ],
   "Which of the following statements is true about the data link layer of the OSI model?":
     ["It is subdivided into two sublayers, namely, MAC and LLC."],
@@ -3184,9 +3339,17 @@ quiz = {
   ],
   "Which of the following statements is true about the original 1997 802.11 standards?":
     ["It only supported network speeds of 2 Mbps."],
+  "Which of the following statements is true about the twist rates in twisted-pair cables?":
+    [
+      "Higher twist rates are more resistant to crosstalk but need a little more wire for a cable of the same length.",
+    ],
   "Which of the following statements is true about the twisted-pair cables?": [
     "Each balanced pair is warped around itself for the cable's length, so even a nearby source, such as a parallel cable, will, on average, balance out.",
   ],
+  "Which of the following statements is true about the unique local addresses?":
+    [
+      "They were designed to replace site-local addresses, so they allow communication throughout a site while being routable to multiple local networks.",
+    ],
   "Which of the following statements is true regarding LACP?": [
     "It allows ports to be configured as active or passive.",
   ],
@@ -3197,6 +3360,10 @@ quiz = {
     [
       "Use secure alternatives to insecure protocols, such as HTTPS and SSH, instead of HTTP and Telnet.",
     ],
+  "Which of the following statements is true regarding the process of restricting permissions using the principle of least privilege?":
+    ["Use extra auditing for privileged accounts, such as administrators."],
+  "Which of the following statements is true with regards to securing authentication and identity management?":
+    ["Ensure that network-based authentication uses secure protocols."],
   "Which of the following statements is true?": [
     "scalar subquery is used to return one value, which can be used in lieu of a literal value.",
   ],
@@ -3222,12 +3389,16 @@ quiz = {
   "Which of the following symbols is most likely to be used in a SELECT statement using a non-equijoin?":
     ["<="],
   "Which of the following symbols represents the PROJECT operation?": ["pi"],
+  "Which of the following system ports is sometimes called the registered port?":
+    ["User"],
   "Which of the following techniques are used to solve the imbalanced data problems?":
     [
       "Data sampling methods, cost-sensitive methods, algorithmic methods, and ensemble methods",
     ],
   "Which of the following techniques to make accessing data more efficient on HDDs deals with the incompatibility of speeds between a CPU and the":
     ["Buffering of data"],
+  "Which of the following technologies is designed for communication over long distances on networks containing thousands or millions of users, requiring complex and expensive infrastructure?":
+    ["WAN"],
   "Which of the following technologies is not part of artificial intelligence?":
     ["Fast Fourier transformation"],
   "Which of the following technologies is used to connect private devices?": [
@@ -3237,6 +3408,8 @@ quiz = {
     ["Port aggregation"],
   "Which of the following terms are for the specific ceremony where members meet for 15 minutes each day to discuss action and issu":
     ["Daily Scrum", "Daily standup"],
+  "Which of the following terms examines the packet origins at a network's periphery to restrict the outside traffic?":
+    ["Edge control"],
   "Which of the following terms measures the cost efficiency you have achieved so far?":
     ["CPI"],
   "Which of the following terms refers to knowledge discovery?": [
@@ -3258,6 +3431,8 @@ quiz = {
     ["External tables", "FLASHBACK", "MERGE"],
   "Which of the following transparencies is also known as distribution or network transparency?":
     ["Data organization"],
+  "Which of the following two needs are balanced using the DNS resolution process?":
+    ["Minimizing DNS traffic volume and the time needed to update records"],
   "Which of the following types are used to declare handle variables?": [
     "SQLHDBC",
     "SQLHENV",
@@ -3265,6 +3440,9 @@ quiz = {
   ],
   "Which of the following types of actions are used to control discretionary database authorization?":
     ["Privilege granting", "Privilege revocation"],
+  "Which of the following types of cables don't need EMI shielding?": [
+    "Optical",
+  ],
   "Which of the following types of cameras are helpful in low-traffic areas, where full-time recording might waste network bandwidth or storage space?":
     ["Motion-sensitive"],
   "Which of the following types of commands does the NameNode send to the DataNode?":
@@ -3281,6 +3459,8 @@ quiz = {
   ],
   "Which of the following violations will occur when a transaction may read a set of rows from a table, based on some condition specified in the SQL WHERE-clause?":
     ["Phantom"],
+  "Which of the following vulnerability scanning tools is also known as a sniffer?":
+    ["Protocol analyzer"],
   "Which of the following well-known ports do the users use to configure outgoing mail on a POP3 email client?":
     ["25"],
   "Which of the following will correctly format the output of the data column HIRE_DATE column to look like the following in the output: 01/01/2017 14:00:00?":
@@ -3325,6 +3505,11 @@ quiz = {
     ["Ishikawa diagram", "Pareto chart"],
   "Which of the following would you not find on an information radiator for an agile team?":
     ["Gantt chart"],
+  "Which of these are considered social engineering attacks?": [
+    "Phishing",
+    "Piggybacking",
+    "Shoulder surfing",
+  ],
   "Which of these are examples of IoT devices?": [
     "A refrigerator with an internal camera",
     "A remotely monitored cardiac pacemaker",
@@ -3343,6 +3528,7 @@ quiz = {
     "Hexadecimal",
     "Octal",
   ],
+  "Which of these are the types of PDUs?": ["Get", "Set", "Trap"],
   "Which of these best describes network reliability?": [
     "Minimal transmission errors, and detection and correction of any that do occur",
   ],
@@ -3360,6 +3546,9 @@ quiz = {
   "Which of these is a general category of scope for a network used over great distances?":
     ["WAN"],
   "Which of these is a primary concern for WANs?": ["Security"],
+  "Which of these is a proprietary protocol used by Cisco routers?": [
+    "NetFlow",
+  ],
   "Which of these is a standardized rule for formatting data?": ["Protocol"],
   "Which of these is a technique that writes data patterns over the entire media, thereby eliminating any trace data?":
     ["Overwriting"],
@@ -3377,18 +3566,26 @@ quiz = {
   "Which of these is not a primary method of load-balancer configuration?": [
     "Priority weighting",
   ],
+  "Which of these is not a symmetric algorithm?": ["MD5"],
   "Which of these is not considered a network device?": ["Media"],
   "Which of these is not included in the layer 2 protocol of the OSI model?": [
     "IPv4 protocol",
   ],
+  "Which of these is the correct name of the original Ethernet standard?": [
+    "10BASE5",
+  ],
   "Which of these is the process of extracting novel patterns and knowledge structures from continuous, rapid data records?":
     ["Data stream mining"],
+  "Which of these is used when a host joins a network or is assigned a new MAC address?":
+    ["ARP announcement"],
   "Which of these makes clustering a less desirable option than load balancing?":
     [
       "It can be more complicated to configure.",
       "It doesn't work as well for some services.",
       "It requires identical or nearly identical hardware for each node.",
     ],
+  "Which of these was the most common reason for BSOD errors and system reboots in the older versions of Windows?":
+    ["Failure of the graphics driver"],
   "Which of these would be the most efficient subnet mask for a point-to-point link?":
     ["/30"],
   "Which one of the following is a DML statement?": ["UPDATE"],
@@ -3414,6 +3611,8 @@ quiz = {
     ["Validation"],
   "Which ping commands will verify that the local TCP/IP interface is working?":
     ["ping 127.0.0.1", "ping localhost"],
+  "Which protocol uses UDP port 123 and allows hosts to get information from a time source either by direct queries or by listening to broadcast or multicast traffic?":
+    ["NTP"],
   "Which provisions are used by the Capacity Scheduler to give each tenant guarantees about cluster capacity?":
     [
       "Access control lists that determine who can submit, view, and modify the Jobs in a queue.",
@@ -3474,11 +3673,17 @@ quiz = {
   ],
   "Which type of XML document is formatted as XML document in order to exchange it over the Web?":
     ["Data-centric"],
+  "Which type of attack works well against the word-based or name-based passwords many users choose for ease of memory?":
+    ["Dictionary"],
   "Which type of cable uses low-smoke and fire-retardant materials?": [
     "Plenum",
   ],
+  "Which type of connector is one of the first popular MMF connectors and is increasingly being replaced by SFF connectors?":
+    ["ST"],
   "Which type of constructor creates a collection of key-value pairs, where the value of a key can be used to retrieve the corresponding value?":
     ["Dictionary"],
+  "Which type of cryptographic technology can be used for authentication and non-repudiation?":
+    ["Asymmetric"],
   "Which type of end user tries to learn most of the DBMS facilities to achieve their complex requirements?":
     ["Sophisticated"],
   "Which type of index facilitates querying on multiple keys and is used for relations that contain a large number of rows?":
@@ -3495,6 +3700,8 @@ quiz = {
     ["tracert"],
   "Which wireless standard uses the 800-900 MHz ISM band with precise frequencies varying by country?":
     ["Z-wave"],
+  "While securing the applications, the users must establish policies for acceptable and unacceptable applications on network hosts.":
+    ["True"],
   "While troubleshooting a network, it's important to view the identification of a problem as an ongoing process.":
     ["True"],
   "While you are working on a long-term construction project, certain paths and activities are not crucial to start at the earliest":
@@ -3520,6 +3727,9 @@ quiz = {
     ["Any stakeholder"],
   "Who would least likely be considered a stakeholder in the following situations?":
     ["A technical expert whom you sometimes refer to for advice"],
+  "Why a password written on a slip of paper is a knowledge factor?": [
+    "Because it's meant to be remembered",
+  ],
   "Why are the development approach and project life cycle important to a project?":
     [
       "The development approach and subsequent project life cycle must support the effective delivery of business and stakeholder value from the beginning to the end of the project.",
@@ -3816,6 +4026,8 @@ quiz = {
     ["Use baseline and post-training assessments."],
   "You, as the project manager, have worked with the team to provide the project scope statement based on the project charter and b":
     ["Contract types used for subject matter experts in the closing phase"],
+  "Your company has two mail servers responsible for sending, receiving, and managing emails. Which of the following network protocols will you use to transfer emails between mail servers?":
+    ["SMTP"],
   "Your current project team has been working for some time on the involvement from all":
     [
       "The individual who has been provided several communications about the long-term effects, but when you ask their opinion, seems surprised that there was a coming change",
@@ -3892,6 +4104,8 @@ quiz = {
     ["The subcontractor is within their right not to respond to you."],
   "Your vendor requests a change to the contract. They were waiting for important data and details on requirements from one of your":
     ["Extend the deadline due to a constructive change."],
+  "Your wireless network is configured with WEP encryption and has a limited number of users. You notice that there are some unauthorized connections on your access point. Which of the following steps will you take to enhance the security of your network?":
+    ["Configure MAC filtering.", "Configure WPA encryption."],
   "_______ is the occurrence of high intercorrelations among two or more independent variables in a multiple regression model.":
     ["Multicollinearity"],
   "_________ is/are often used to characterize the relationships between individual terms and individual documents.":

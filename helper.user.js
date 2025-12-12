@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         ucertify-quiz-helper
-// @version      3.1.6
+// @version      3.1.7
 // @description  ucertify-quiz-helper
 // @author       guanhua
 // @include      *ucertify*

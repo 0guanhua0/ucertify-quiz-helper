@@ -18,16 +18,16 @@ turn on developer mode
 go to [chrome://extensions/](chrome://extensions/)
 ![chrome](./pic/chrome.png)
 
-### contribute
+### help
 thx jackwww232-hash for db patch pipeline
 
 to help patch db, in result
 ```
-getIncorrect()
+getAll()
 ```
-![contribute-0](./pic/contribute-0.png)
+![help-0](./pic/help-0.png)
 
 ```
 console.log(JSON.stringify(patch, null, 2))
 ```
-![contribute-1](./pic/contribute-1.png)
+![help-1](./pic/help-1.png)

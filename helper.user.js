@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         ucertify-quiz-helper
-// @version      3.1.2
+// @version      3.1.3
 // @description  ucertify-quiz-helper
 // @author       guanhua
 // @include      *ucertify*
@@ -196,13 +196,11 @@
     return { question, ans };
   }
 
-  async function getIncorrect() {
+  async function getAll() {
     while (true) {
       let current = getCurr();
       let status = document.querySelector("#ans-text").innerText;
-      if (status === "Incorrect") {
-        patch[current.question] = current.ans;
-      }
+      patch[current.question] = current.ans;
 
       document.querySelector("#next").click();
       await new Promise((resolve) => setTimeout(resolve, 1000));
@@ -211,5 +209,5 @@
 
   unsafeWindow.patch = patch;
   unsafeWindow.getCurr = getCurr;
-  unsafeWindow.getIncorrect = getIncorrect;
+  unsafeWindow.getAll = getAll;
 })();

@@ -8,6 +8,12 @@ quiz = {
       "Encourage the team to support project value delivery.",
       "Remove roadblocks, obstacles, and impediments.",
     ],
+  "A company has provided kiosks to employees within the organization's boundaries. However, some of the kiosks are in close proximity to a shopping center. The management is concerned about someone accessing the Internet via the kiosk's wireless network. The network technician has been asked to implement a solution that will provide wireless access only to the employees working at the kiosk. Which of these should the network technician implement?":
+    ["Switch port security"],
+  "A company recently faced an attack on its network infrastructure. On further inspection, it was found that the attacker exploited the vulnerabilities resulting from open switch ports. The CIO has instructed the network administrator that he not only wants the network to be secure but also would like to monitor any attack in the future. Which of these should the network administrator implement to achieve the goal mentioned in the given scenario?":
+    ["Create a VLAN with honeypots."],
+  "A company wants a cloud service solution that can provide a deployment platform for its applications, and it doesn't need to worry about the infrastructure requirements. Which of the following cloud services should be used for the purpose mentioned in the given scenario?":
+    ["PaaS"],
   "A control account is typically used to identify actual cost to the budget and can be used":
     ["True"],
   "A correlated subquery:": ["Cannot be executed as a standalone query"],
@@ -23,6 +29,12 @@ quiz = {
     ["True"],
   "A data set is imbalanced when the distribution of different classes in the input variables are significantly dissimilar.":
     ["False"],
+  "A disgruntled employee performs a man-in-the-middle attack on a company's network. All the layer 2 traffic, which was destined for the default gateway, is redirected to the employee's network. What kind of attack has the employee performed?":
+    ["ARP cache poisoning"],
+  "A high-latency network connection is one that experiences short delay times, while a low-latency connection suffers from long delays.":
+    ["False"],
+  "A junior network technician is configuring voice control of devices in the CEO's cabin. Which type of IoT network is established in the given scenario?":
+    ["PAN"],
   "A junior project manager and a key stakeholder are in disagreement. The junior PM delivered the WBS to the stakeholder, who is v":
     [
       "Explain to the key stakeholder that the junior PM is correct not to include activities.",
@@ -30,8 +42,24 @@ quiz = {
   "A model with low variance is the one that captures both noise and generalized patterns in the data and therefore produces an overfit model.":
     ["False"],
   "A multitable INSERT statement:": ["Can use conditional logic"],
+  "A narrowband transmission is highly susceptible to interference, either from noise sources or another network or electronic device using the same channel.":
+    ["True"],
+  "A network administrator discovers multiple attempts to scan network hosts and devices originating from a single host on the network. Which of the following threats is most likely involved in the given scenario?":
+    ["Compromised system"],
+  "A network administrator has configured RIPv2 as the routing protocol for the company's network. Which metric will be in use for deciding the best path to the network?":
+    ["Hop count"],
+  "A network technician has been given permission to exploit a weakness in the company's network. Which process is described in the given scenario?":
+    ["Penetration testing"],
+  "A network technician is setting up a new wireless network. With the WPA2 standard in use, which of these will provide both data confidentiality and data integrity?":
+    ["AES", "CCMP"],
+  "A network technician is setting up a wireless access point for a SOHO location. The user has demanded exclusive use of the 5GHz band. Which of the following wireless standards should the network technician use for the purpose mentioned in the given scenario?":
+    ["802.11ac"],
+  "A network technician, while troubleshooting a Linux system, wants to display the associated IP address of a network adapter. Which of the following commands should he use?":
+    ["ifconfig"],
   "A new director joins your organization, and you know that this director's division will be highly impacted by your project. What":
     ["Update the stakeholder register."],
+  "A new employee is assigned a laptop by the network administrator, which was assigned to someone else in the company. Upon delivering the laptop to the new employee, the administrator documents the new location, the employee's name, and when the device was reassigned. Which of these best describes the actions mentioned in the given scenario?":
+    ["Asset management"],
   "A new stakeholder has been identified on your project, and you are trying to determine the best approach and strategy to involve":
     ["Stakeholder engagement plan"],
   "A new team member joined your group, and this person requires some help. It seems to them that you are not doing your job as a p":
@@ -39,6 +67,8 @@ quiz = {
       "The team is self-organizing and has the skills to determine who should be working on which tasks.",
       "This is a very experienced team, and members have all of the technical and soft skills to perform undirected.",
     ],
+  "A node on the logical network isn't described by its physical location but rather by its address.":
+    ["True"],
   "A planning package is typically different from a work package in that it includes work content but not detailed scheduled or cos":
     ["True"],
   "A polygraph is a non-intrusive deception-detection technique commonly used to assess the level of truthfulness in the textual content.":
@@ -66,6 +96,8 @@ quiz = {
       "Add additional resources to the project for additional cost.",
       "Reduce the scope somewhat to keep to the scheduled timeframe.",
     ],
+  "A properly designed VLAN-based network only routes a minority of traffic, while most packets remain within their VLAN.":
+    ["True"],
   "A role:": [
     "Can be created by a user only if that user has the CREATE ROLE system privilege",
   ],
@@ -102,6 +134,8 @@ quiz = {
     ],
   "A typical example of interval scale measurement is the temperature on the Celsius scale.":
     ["True"],
+  "A user reports an issue to a network technician that he is unable to connect to the server. The user has Linux OS installed on his system. Which of the following commands should the network technician use to test the connectivity issue between two network devices?":
+    ["ping"],
   "A(n) _____________ is a collection of neurons that takes inputs from the previous layer and converts those inputs into outputs for further processing.":
     ["hidden layer"],
   "AI (artificial intelligence) has the capability to find hidden patterns in a variety of data sources to identify problems and provide potential solutions.":
@@ -109,6 +143,8 @@ quiz = {
   "Actual cost is the measurement of work completed based on the plan value.": [
     "False",
   ],
+  "Ad hoc networks are created peer to peer or directly between stations and not through an AP.":
+    ["True"],
   "After a lengthy discussion and debate with your stakeholders, you have finally agreed on the quality standards that the team mus":
     ["Update the quality management plan."],
   "After a lessons learned exercise, there are a number of ways to make sure of the results. Of the following, which would be omitt":
@@ -149,6 +185,8 @@ quiz = {
   "All of the following would be considered project variances": [
     "A risk that the project may be out of resources necessary near the end is identified.",
   ],
+  "All ports on the root switch are designated ports that forward the traffic they receive from their segment.":
+    ["True"],
   "All the following can occur as part of closing a project, or a phase, or an iteration, except which one?":
     ["Validation of scope"],
   "Although an agile team is usually not held to specific deadlines for the overall project,":
@@ -167,6 +205,10 @@ quiz = {
   "An invisible index is an index on one or more columns in a table:": [
     "And is updated for any DELETE statements performed on the table",
   ],
+  "An organization has been facing an increased number of successful social engineering attacks. Which of these can help in reducing these attacks in the near future?":
+    ["End-user awareness training"],
+  "An organization's security policy requires that when new devices are introduced to the network, the devices must be monitored to establish normal traffic patterns. Which of these is generated from the initial monitoring of the devices?":
+    ["Baseline"],
   "Analytic functions are processed:": [
     "As the last set of operations before processing the ORDER BY clause",
   ],
@@ -174,6 +216,10 @@ quiz = {
     ["False"],
   "Analytics is the art and science of discovering insight to support accurate and timely decision making.":
     ["True"],
+  "Ann, a network technician, has set up an FTP server for a company to distribute software updates for the company's products. For security reasons, each customer is provided with a unique username and password. Several customers have discovered a virus in one of the security updates. The network technician tested all files before uploading them but on retesting the file, found the virus. Which of these should the network technician do for the customers to validate the proper security patch?":
+    ["Provide an MD5 hash for each file."],
+  "Ann, a network technician, has to implement a physical security control that will allow her to detect any intrusion into the server room. Which of the following physical security controls will be most suitable for the purpose mentioned in the given scenario?":
+    ["CCTVs"],
   "Another name for an EXISTS query is:": ["Semijoin"],
   "Another way to describe the scope baseline is that it is the current expected work to be":
     ["False"],
@@ -284,6 +330,8 @@ quiz = {
     ["True"],
   "Big data comes from a variety of sources within an organization, including marketing and sales transaction, inventory records, financial transaction, and human resources and accounting records.":
     ["False"],
+  "Broadband is frequently used for referring to fast Internet connections instead of slow ones.":
+    ["True"],
   "Built-in SQL functions: (Choose three.)": [
     "Are available for use from the UPDATE statement.",
     "Are available for use within a SELECT statement's WHERE clause, as well as the SELECT statement's expression list.",
@@ -477,6 +525,8 @@ quiz = {
     ],
   "ERP stands for enterprise resource planning and is used for the integration of company-wide data.":
     ["True"],
+  "Each connection to the hub is its own electrical connection but part of the same overall collision domain.":
+    ["True"],
   "Each node in a tree, except for a special node called a": ["root"],
   "Earlier on this project, your team lead expressed concerns that a vendor may delay shipment of some vital raw materials for the":
     ["Contingency reserves because this is a known risk"],
@@ -595,6 +645,8 @@ quiz = {
     ["0"],
   "If an ALTER TABLE ... DROP COLUMN statement is executed against an underlying table upon which a view is based, the status of that view in the data dictionary changes to:":
     ["INVALID"],
+  "If an Ethernet segment needs to connect to another segment that uses Wi-Fi, Token Ring, or even a different Ethernet speed, a repeater can join them.":
+    ["False"],
   "If an organization is comfortable with most uncertainty and accepts risk as a normal part of doing business and projects, how yo":
     ["Risk-tolerant"],
   "If senior management doesn't want you to spend time writing a project charter":
@@ -624,6 +676,8 @@ quiz = {
     [
       "Ensuring compliance on all electronic communication steps within your organization and the client's organization",
     ],
+  "In an organization, many users are reporting that they are unable to access the Internet in the evening. Users working the day shift are not having such a problem. Which of these can be the cause of this issue?":
+    ["Time-based ACL"],
   "In artificial neural networks, neurons are processing units, also called processing elements, that perform predefined mathematical operations on the numeric values from the input variables or the other neuron outputs to create and push out their own outputs.":
     ["True"],
   "In banking and finance, data mining is often used to manage microeconomics movements and overall cash flow outcomes.":
@@ -654,6 +708,8 @@ quiz = {
     ["True"],
   "In most relational DBMSs, there is no specific language that performs the role of":
     ["SDL"],
+  "In networks using IPv6 tunneling, an IPv6 packet can be carried as the payload of an IPv4 packet.":
+    ["True"],
   "In prediction analytics, variance refers to the error, and bias refers to the consistency in the predictive accuracy of models applied to other data sets.":
     ["False"],
   "In prediction, linear regression uses a mathematical equation to identify additive mathematical relationships between explanatory variables and the response variable.":
@@ -735,6 +791,8 @@ quiz = {
     ["Semi-join"],
   "In which of the following methods do team members pull the work from a queue?":
     ["On-demand scheduling"],
+  "In which of the following methods, each incoming connection goes to the server with the fewest active connections?":
+    ["Least connection"],
   "In which of the following situations will a force majeure clause apply? (Choose two.)":
     [
       "A sudden tornado touches down in the area.",
@@ -780,8 +838,12 @@ quiz = {
     ["Templates for all portions of the process to expedite the work"],
   "Last-minute changes were made recently to the training plan due to additional scope requirements. This is an acceptable choice t":
     ["True"],
+  "Layer 3 devices need a control protocol for sending diagnostic and error information relevant to layer 3.":
+    ["True"],
   "Linear regression aims to capture the functional relationships between one or more numeric input variables and a categorical output variable.":
     ["False"],
+  "Link aggregation can be used on routers or even hosts with multiple interfaces, where it's more commonly known as NIC teaming.":
+    ["True"],
   "Logistic regression is like linear regression where both of them are used to predict a numeric target variable.":
     ["False"],
   "Loss of availability occurs when:": [
@@ -817,6 +879,12 @@ quiz = {
   "Multicollinearity can be triggered by having two or more perfectly correlated explanatory variables present in the model.":
     ["True"],
   "Multilayer perceptron type deep networks are also known as feedforward networks because the flow of information that goes through them is always forwarding, and no feedback connections are allowed.":
+    ["True"],
+  "NAT is great to have around when an organization changes its ISP and the networking manager doesn't want the hassle of changing the internal address scheme.":
+    ["True"],
+  "NFV is the process of taking networking functions (such as routers, switches, firewalls, load balancers, and controllers) and virtualizing them.":
+    ["True"],
+  "Network taps and port mirrors should be placed on chokepoints for critical traffic.":
     ["True"],
   "Novel is a key term in the definition of data mining, which means that the patterns are known by the user within the context of the system being analyzed.":
     ["False"],
@@ -1251,6 +1319,8 @@ quiz = {
   "SCM and ERP are the first two beneficiaries of the NLP and WordNet.": [
     "False",
   ],
+  "STP is used by switches to communicate their relative positions and detect redundant links.":
+    ["True"],
   "Scope management requires a number of skills and tools for a practiced user. Of the following, which tools or techniques would b":
     [
       "Demonstrating expert judgment with decisions",
@@ -1284,6 +1354,8 @@ quiz = {
     ["Photocopier"],
   "Singular value decomposition help reduce the overall structure of the term-document matrix to a lower dimensional space for further pattern/knowledge discovery.":
     ["True"],
+  "Some connections use intelligent demarc that performs signal translation or routing.":
+    ["True"],
   "Some of the advantages of using time boxes and cycles in project coordination efforts include creating urgency, measuring progre":
     ["True"],
   "Some of the greatest forms of stress that a team will face are not due to creativity and timeframe, but more likely created by v":
@@ -1294,6 +1366,8 @@ quiz = {
     ["Newer/established"],
   "Structured data is usually organized into records with simple data values that include __________, __________, and __________ variables.":
     ["categorical", "continuous", "ordinal"],
+  "Switches can create multiple broadcast domains by partitioning the network into the software. What are these domains called?":
+    ["VLANs"],
   "TRUNCATE TABLE:": [
     "Is a valid set of keywords to be used within a DDL statement",
   ],
@@ -1363,6 +1437,8 @@ quiz = {
     ["False"],
   "The area under the ROC curve is a graphical assessment technique for binary classification problems, in which sensitivity is plotted on the y-axis and the specificity is plotted on the x-axis.":
     ["False"],
+  "The attackers use the monlist command, which is a remote command in older versions of NTP, that sends the requester a list of the last 600 hosts who have connected to that server.":
+    ["True"],
   "The best exam guide you could possibly get for preparing to take and pass the 1Z0-071 certification exam, SQL Associate, is which of the following? (Choose all that apply.)":
     [
       "Don't make me tell you again.",
@@ -1433,6 +1509,8 @@ quiz = {
   ],
   "The important part of the KDD process is the feedback loop that allows the process flow to redirect backward, from any step to any other previous steps, for rework and readjustments.":
     ["True"],
+  "The inverse-square law applied to antenna placement dictates that if the distance from the antenna to the receiving device is doubled, then the signal will drop by how much?":
+    ["6 dB"],
   "The main aim of NLP is to move away from word counting to a real understanding and processing of natural human language.":
     ["True"],
   "The main benefit of Hadoop is that it allows enterprises to process and analyze large volumes of structured and semi-structured data on specialized hardware.":
@@ -1445,6 +1523,7 @@ quiz = {
     ["Providing for something economic such as money or a gift"],
   "The minimum viable product is the smallest segment of work that may be produced at a given time and still provides some value.":
     ["False"],
+  "The most common use for MySQL is for creating a manual database.": ["False"],
   "The most important driver behind business analytics popularity is the need for business managers to make experience and intuition driven business decisions.":
     ["False"],
   "The most popular approach in a neural network is __________, which allows all neurons to link the output in one layer to the next layer's input.":
@@ -1452,6 +1531,8 @@ quiz = {
   "The most statistical of the consensus reaching tools would be dot voting over fist of five or polling.":
     ["True"],
   "The multi split methodology partitions data into exactly two mutually exclusive subsets called training set and test set.":
+    ["False"],
+  "The network layer of the OSI model is responsible for identifying and establishing the availability of the intended communication partner and determining whether sufficient resources for the requested communication exist.":
     ["False"],
   "The neural networks in which feedback connections are allowed are called ____________.":
     ["recurrent neural networks"],
@@ -1538,6 +1619,8 @@ quiz = {
   "The set operators do not include which one of the following keywords?": [
     "SET",
   ],
+  "The simplest repeater has ports listening in two directions along a cable.":
+    ["True"],
   "The skills of a surgical technician are an example of which type of attribute?":
     ["Multivalued attribute"],
   "The smallest segment of work that may be produced at a given time and that still provides some value is essentially the definiti":
@@ -1620,6 +1703,8 @@ quiz = {
   "The use of a product backlog would be an agile artifact.": ["True"],
   "The use of shared task boards, videoconferencing, lessons learned repositories, and chat functions all increase collaboration.":
     ["True"],
+  "The users would use a bridge in a network to reduce collisions within broadcast domains and to increase the number of collision domains in their network.":
+    ["True"],
   "There are different factors causing a particular issue, and you want to find the root cause. You look at a chart that lists all":
     ["Statistical sampling"],
   "There are many potential places for risk to pop up. The team needs to be mindful throughout the entire project that new risks ma":
@@ -1657,6 +1742,8 @@ quiz = {
     ["True"],
   "To deploy a developed SVM model, the model coefficients can be extracted and integrated directly into the decision support system.":
     ["True"],
+  "To ensure security, the users need to install new certificates or generate new SSH keys when deploying a device.":
+    ["True"],
   "To keep the team properly motivated, it is beneficial to provide rewards and recognition on a regular basis. Of the following, w":
     [
       "An individual receives positive comments in front of the entire department.",
@@ -1691,6 +1778,7 @@ quiz = {
   "Video conferencing is a type of which communication method?": [
     "Interactive",
   ],
+  "VoIP is used not only in voice chat apps but also in many phones.": ["True"],
   "Web analysis is used to find interesting usage patterns of Web sites. If any flaw in a Web site has been exploited, it can be inferred using Web analysis,":
     ["Web security"],
   "What SQL statement will both remove all data from a table as well as reset the high water mark of that table?":
@@ -1843,6 +1931,9 @@ quiz = {
       "Privacy and confidentiality",
     ],
   "What does the categorical data contain?": ["Nominal data"],
+  "What happens when a switching loop floods the network repeatedly?": [
+    "Broadcast storm",
+  ],
   "What is a System for Value Delivery?": [
     "A collection of strategic business activities aimed at building, sustaining, and/or advancing an organization",
   ],
@@ -1900,11 +1991,23 @@ quiz = {
   "What is the objective of qualitative risk analysis?": [
     "To prioritize and rank the identified risks so the project can focus on the high-priority risks",
   ],
+  "What is the other name for the current 802.11ax Wi-Fi standard?": [
+    "Wi-Fi 6",
+  ],
   "What is the primary difference between statistics and data mining?": [
     "Statistics starts with a well-defined proposition and hypothesis, whereas data mining starts with a loosely defined discovery statement.",
   ],
+  "What is the primary purpose of SSID?": [
+    "To allow devices to self-identify as members of a single interoperating logical network segment",
+  ],
   "What is the primary value of planning resource management for a project?": [
     "To establish the approach and the management effort level needed for managing project resources based on type and complexity of the project",
+  ],
+  "What is the purpose of a load balancer?": [
+    "To deploy a hardware or software appliance designed to transparently combine distributed services into a single and virtual whole",
+  ],
+  "What is the purpose of health checking in load balancing devices?": [
+    "To track the functionality of each server in the load balancing pool and remove it in the case of a failure",
   ],
   "What is the relationship between a project and a product?": [
     "A project creates a product.",
@@ -1912,6 +2015,7 @@ quiz = {
   "What is the relationship between a project, a program, and a portfolio?": [
     "A portfolio can consist of programs and projects; a program is a group of related projects.",
   ],
+  "What is the wavelength of MMF?": ["Around 850 nm or 1300 nm"],
   "What kinds of patterns can data mining discover?": [
     "Association",
     "Classification",
@@ -2081,6 +2185,8 @@ quiz = {
     ["Lifetime"],
   "Which autonomy implies that component DBS has the ability to decide whether and how much to share its functionality and resources with other":
     ["Association"],
+  "Which backup strategy contains the changes in data since the last full backup?":
+    ["Differential"],
   "Which classification approach use(s) historical samples to identify commonalities in order to assign a new sample to the most similar category?":
     ["Case-based reasoning"],
   "Which classification method use(s) conditional probabilities to build classification models?":
@@ -2156,6 +2262,8 @@ quiz = {
     ["Constructing"],
   "Which of the following DML operations are available when using a merge command (choose all that apply)?":
     ["Delete", "Insert", "Update"],
+  "Which of the following IP addresses is a local host that the router has already spotted via Ethernet traffic and added to the table?":
+    ["192.168.100.24"],
   "Which of the following Java technologies exists on the Web server machine and manages interactions with the client?":
     ["Java Servlet"],
   "Which of the following Java technologies for database Web programming are Java objects that can reside on the Web server machine and manage interactions with the client?":
@@ -2219,6 +2327,8 @@ quiz = {
     ["Database programming language"],
   "Which of the following approaches is mostly preferred, as it reduces the number of tables?":
     ["Foreign key"],
+  "Which of the following approaches starts in the middle of the stack and can be quicker than the top-to-bottom and bottom-to-top approaches?":
+    ["Divide-and-conquer"],
   "Which of the following are advantages of focusing on the minimum business increment? (Choose two.)":
     [
       "Enabling the project team to deliver more quickly",
@@ -2320,6 +2430,11 @@ quiz = {
     ["All of these"],
   "Which of the following are the correct levels of stakeholder engagement from the assessment matrix? (Choose two.)":
     ["Neutral", "Unaware"],
+  "Which of the following are the functions of load balancing?": [
+    "Content caching",
+    "Priority queuing",
+    "TCP offloading",
+  ],
   "Which of the following are the most commonly used normalization methods?": [
     "Log, binary, and inverse document frequencies",
   ],
@@ -2391,6 +2506,8 @@ quiz = {
     ["The work packages for which the stakeholder would take responsibility"],
   "Which of the following combines architectures, databases, analytical tools, applications, and methodologies?":
     ["BI"],
+  "Which of the following commands is used to view or alter the routing table?":
+    ["route"],
   "Which of the following commands specifies a new relation by giving it a name and specifying its attributes and initial constraints?":
     ["CREATE TABLE"],
   "Which of the following comparison operators can be used with a multiple-row subquery? (Choose two.)":
@@ -2399,6 +2516,8 @@ quiz = {
     ["IS", "IS NOT"],
   "Which of the following components is a sequence of SQL statements, but it could also be a database transaction or an external program that will be automatically":
     ["Action"],
+  "Which of the following components is the transparent optical fiber that carries the signal and is made out of silica glass, which is far more transparent than ordinary consumer glass?":
+    ["Core"],
   "Which of the following concepts prevents ARIES from repeating the completed undo operations if a failure occurs during recovery, which causes a restart of the recovery process?":
     ["Logging during undo"],
   "Which of the following conditions must be satisfied for a database to be called as distributed?":
@@ -2439,6 +2558,8 @@ quiz = {
     ],
   "Which of the following developments is not contributing to facilitating the growth of decision support and analytics?":
     ["Locally concentrated workforces"],
+  "Which of the following devices should a network administrator configure on the outermost part of a network?":
+    ["Firewall"],
   "Which of the following does not represent the SMART criteria?": [
     "Analytical",
   ],
@@ -2452,6 +2573,9 @@ quiz = {
     ["Sorted"],
   "Which of the following forms of subquery never returns more than one row?": [
     "Scalar",
+  ],
+  "Which of the following formulas can be used to express EIRP in decibels?": [
+    "EIRP = ERP + 2.15",
   ],
   "Which of the following from the bullseye diagram interprets the predictions that are inconsistent but represent a reasonably well-performing prediction model?":
     ["Low bias, high variance"],
@@ -2640,6 +2764,13 @@ quiz = {
   "Which of the following languages is a platform-independent and programming language-independent protocol for messaging and remote procedure calls?":
     ["SOAP"],
   "Which of the following languages specifies the internal schema?": ["SDL"],
+  "Which of the following layer 1 devices connects multiple nodes into a star configuration?":
+    ["Hub"],
+  "Which of the following layers of the OSI model translates physical layer bits to and from ordered packets called frames, transfers them between nodes, and optionally receives acknowledgment of their receipt?":
+    ["Data link"],
+  "Which of the following leased line has a maximum data rate of 1.544 Mbps?": [
+    "T1",
+  ],
   "Which of the following locks is too restrictive for database concurrency control purposes?":
     ["Binary"],
   "Which of the following locks is used to lock the entire database?": [
@@ -2703,6 +2834,8 @@ quiz = {
   "Which of the following phases is the final phase of data preprocessing?": [
     "Data reduction",
   ],
+  "Which of the following ping commands specifies the time stamp for count hops in IPv4 addresses only?":
+    ["ping -s count"],
   "Which of the following problems can be solved with a subquery? (Choose the two best answers.)":
     [
       "A correlated subquery can also be a single-row subquery.",
@@ -2750,13 +2883,37 @@ quiz = {
     ["Federated"],
   "Which of the following sequences of tasks represents the text mining process?":
     ["Establish the corpus, preprocess the data, and extract the knowledge."],
+  "Which of the following spares is connected, powered on, and ready to serve as an automatic failover if the primary connection fails?":
+    ["Hot"],
   "Which of the following specifies referential integrity?": [
     "FOREIGN KEY clause",
   ],
   "Which of the following stakeholders is the highest priority for the project manager?":
     ["Definitive stakeholders"],
+  "Which of the following standards utilize MIMO on non-overlapping channels?":
+    ["802.11ac", "802.11n"],
   "Which of the following statements about set operators is true? Choose the best answer.":
     ["You can connect two SELECT statements with one set operator."],
+  "Which of the following statements are correct about network connectivity?": [
+    "Each system on the network must be able to transmit information to any other system with which it might want to communicate.",
+    "The target system must be able to recognize and act on the data it receives.",
+    "There must be a physical connection between all points on the network.",
+  ],
+  "Which of the following statements are true about a hub?": [
+    "A hub has no memory for storing data.",
+    "Connections to a hub are always effectively half-duplex.",
+    "It's similar to a repeater with more than two ports.",
+  ],
+  "Which of the following statements are true about load balancer configurations?":
+    [
+      "In the round-robin method, servers are listed in order, and each request goes to the server next in line.",
+      "The least-connection method is more complicated to implement than round-robin, but it's better able to deal with services that have variable session lengths.",
+    ],
+  "Which of the following statements are true about the presentation layer of the OSI model?":
+    [
+      "It controls the formatting and security of data.",
+      "It is sometimes called the syntax layer.",
+    ],
   "Which of the following statements are true about the risk management plan? (Choose two.)":
     [
       "It documents how risks will be managed and controlled for the project.",
@@ -2832,6 +2989,12 @@ quiz = {
     "It can be used only in the SELECT statement.",
     "It must occur after the WHERE clause.",
   ],
+  "Which of the following statements is true about STP?": [
+    "It is standardized as IEEE 802.1D.",
+  ],
+  "Which of the following statements is true about VLANs?": [
+    "They aren't a single standard but rather a collection of method switches that can be used to partition broadcast domains.",
+  ],
   "Which of the following statements is true about a self join? (choose all that apply)":
     [
       "A self join does not always require a where clause.",
@@ -2841,6 +3004,15 @@ quiz = {
   "Which of the following statements is true about clustering?": [
     "Assigns customers to different segments",
   ],
+  "Which of the following statements is true about the original 1997 802.11 standards?":
+    ["It only supported network speeds of 2 Mbps."],
+  "Which of the following statements is true regarding LACP?": [
+    "It allows ports to be configured as active or passive.",
+  ],
+  "Which of the following statements is true regarding the applications of heightened scrutiny to network applications?":
+    [
+      "Use secure alternatives to insecure protocols, such as HTTPS and SSH, instead of HTTP and Telnet.",
+    ],
   "Which of the following statements is true?": [
     "scalar subquery is used to return one value, which can be used in lieu of a literal value.",
   ],
@@ -2874,6 +3046,8 @@ quiz = {
     ["Buffering of data"],
   "Which of the following technologies is not part of artificial intelligence?":
     ["Fast Fourier transformation"],
+  "Which of the following technologies lets the switch bind multiple physical ports into a single logical interface?":
+    ["Port aggregation"],
   "Which of the following terms are for the specific ceremony where members meet for 15 minutes each day to discuss action and issu":
     ["Daily Scrum", "Daily standup"],
   "Which of the following terms measures the cost efficiency you have achieved so far?":
@@ -2881,6 +3055,8 @@ quiz = {
   "Which of the following terms refers to knowledge discovery?": [
     "Data analytics",
   ],
+  "Which of the following terms represents a higher layer router that uses NAT to split server requests between multiple identical servers?":
+    ["Content switch"],
   "Which of the following tools can be used for requirements elicitation? (Choose two.)":
     ["Interviewing", "Observation"],
   "Which of the following tools do you use to gauge stakeholder satisfaction?":
@@ -2902,6 +3078,8 @@ quiz = {
   ],
   "Which of the following types of actions are used to control discretionary database authorization?":
     ["Privilege granting", "Privilege revocation"],
+  "Which of the following types of cameras are helpful in low-traffic areas, where full-time recording might waste network bandwidth or storage space?":
+    ["Motion-sensitive"],
   "Which of the following types of commands does the NameNode send to the DataNode?":
     [
       "Remove a block replica.",
@@ -2916,6 +3094,8 @@ quiz = {
   ],
   "Which of the following violations will occur when a transaction may read a set of rows from a table, based on some condition specified in the SQL WHERE-clause?":
     ["Phantom"],
+  "Which of the following well-known ports do the users use to configure outgoing mail on a POP3 email client?":
+    ["25"],
   "Which of the following will correctly format the output of the data column HIRE_DATE column to look like the following in the output: 01/01/2017 14:00:00?":
     ["select to_char(hire_date, 'mm/dd/yyyy hh24:mi:ss') from emp;"],
   "Which of the following will insert rows in the employee table into the employee_history table with a term_date less than or equal to today's date minus 365 days?":
@@ -2956,12 +3136,45 @@ quiz = {
     ["Ishikawa diagram", "Pareto chart"],
   "Which of the following would you not find on an information radiator for an agile team?":
     ["Gantt chart"],
+  "Which of these are examples of IoT devices?": [
+    "A refrigerator with an internal camera",
+    "A remotely monitored cardiac pacemaker",
+    "A smartphone app for your home thermostat",
+  ],
+  "Which of these are the characteristics of jumbo frames?": [
+    "Improves network performance",
+    "MTU > 1500",
+    "Used in SAN",
+  ],
+  "Which of these can be used to authenticate remote workers connecting from an offsite location?":
+    ["802.1X", "RADIUS server"],
+  "Which of these frequently reports RSSI as a negative dBm measurement?": [
+    "Wi-Fi analyzer",
+  ],
+  "Which of these is a designation used in routing to send packets to a remote network?":
+    ["Network address"],
+  "Which of these is a general category of scope for a network used over great distances?":
+    ["WAN"],
   "Which of these is an example of a user story?": [
     "As a call center analyst, I want to input customers' first and last names and postal codes so that I can pull up their accounts quickly.",
   ],
   "Which of these is not a chain type used by iptables?": ["Backward"],
+  "Which of these is not a primary method of load-balancer configuration?": [
+    "Priority weighting",
+  ],
+  "Which of these is not included in the layer 2 protocol of the OSI model?": [
+    "IPv4 protocol",
+  ],
   "Which of these is the process of extracting novel patterns and knowledge structures from continuous, rapid data records?":
     ["Data stream mining"],
+  "Which of these makes clustering a less desirable option than load balancing?":
+    [
+      "It can be more complicated to configure.",
+      "It doesn't work as well for some services.",
+      "It requires identical or nearly identical hardware for each node.",
+    ],
+  "Which of these would be the most efficient subnet mask for a point-to-point link?":
+    ["/30"],
   "Which one of the following is a DML statement?": ["UPDATE"],
   "Which operation is used for inserting new data or new versions of existing data items?":
     ["Put"],
@@ -3004,6 +3217,8 @@ quiz = {
     ["Bitmap index"],
   "Which spatial operator provides a more specific description of the object's geometry and measures some global properties of single objects?":
     ["Metric"],
+  "Which specific type of network configuration is often used in the case of a single institution consisting of multiple and collocated buildings?":
+    ["CAN"],
   "Which stage of a distributed database query is performed locally?": [
     "Local query optimization",
   ],
@@ -3036,6 +3251,8 @@ quiz = {
     ["-S"],
   "Which tools can be used by a project manager to assess the fit for any potential candidate for a project role? (Choose all that":
     ["Ability tests", "Attitudinal surveys", "Structured interviews"],
+  "Which topology consists of two distinct and terminated ends, with each of its computers connecting to one unbroken cable running its entire length?":
+    ["Bus"],
   "Which two-phase locking protocol is a deadlock-free protocol?": [
     "Conservative",
   ],
@@ -3055,6 +3272,8 @@ quiz = {
     ["ipconfig /all"],
   "Which utility produces output similar to the given output?\n\n\nStart of code block\n110 ms  96 ms  107 ms fgo1.corpcomm.net [209.74.93.10]\n96 ms  126 ms  95 ms someone.corpcomm.net [209.74.93.1]\n113 ms  119 ms  112 ms Serial5-1-1.GW2.MSP1.alter.net [157.130.100.185]\n133 ms  123 ms  126 ms 152.ATM3-0.XR2.CHI6.ALTER.NET  [146.188.209.126]\n176 ms  133 ms  129 ms 290.ATM2-0.TR2.CHI4.ALTER.NET  [146.188.209.10]\n196 ms  184 ms  218 ms 106.ATM7-0.TR2.SCL1.ALTER.NET  [146.188.136.162]\n182 ms  187 ms  187 ms 298.ATM7-0.XR2.SJC1.ALTER.NET  [146.188.146.61]\n204 ms  176 ms  186 ms 192.ATM3-0-0.SAN-JOSE9- GW.ALTER.NET [146.188.144.133]\n202 ms  198 ms  212 ms atm3-0-622M.cr1.sjc.globalcenter.net [206.57.16.17]\n209 ms  202 ms  195 ms pos3-1-155M.br4.SJC.globalcenter.net [206.132.150.98]\n190 ms   *   191 ms pos0-0-0-155M.hr3.SNV.globalcenter.net [206.251.5.93]\n195 ms  188 ms  188 ms pos4-1-0-   155M.hr2.SNV.globalcenter.net [206.132.150.206]\n198 ms  202 ms  197 ms www10.yahoo.com [204.71.200.75]\nEnd of code block":
     ["tracert"],
+  "Which wireless standard uses the 800-900 MHz ISM band with precise frequencies varying by country?":
+    ["Z-wave"],
   "While you are working on a long-term construction project, certain paths and activities are not crucial to start at the earliest":
     ["True"],
   "Who are considered some of the stakeholders on a project?": [
@@ -3092,6 +3311,10 @@ quiz = {
       "Improves ability to understand how the use of language impacts others",
       "Prioritizes analyzing data and evidence to evaluate arguments and resolve issues",
     ],
+  "Why is return loss a problem?": [
+    "Because it causes interference",
+    "Because less signal reaches the receiver",
+  ],
   "Wireshark is an example of a(n) __________.": ["protocol analyzer"],
   "Working as a part of a government division approving a new building, you need to make sure that the budget is approved in advanc":
     ["Fixed price"],
@@ -3159,6 +3382,11 @@ quiz = {
     ["Sprint retrospective"],
   "You are in the process of administrative closure and have collected project records, ensured vendor contracts are closed, and pr":
     ["Archive project documents"],
+  "You are installing an ADSL router for your company's new branch office. The router has a switch module containing four Ethernet ports, all of which are assigned to the default VLAN named VLAN1. When you plug a laptop into one of the Ethernet ports, you can access the Internet with no difficulties. Now, you need to connect the ADSL router to the company's network so that the wireless access points on the network can provide the users with Internet access through the ADSL router. However, when you plug the router into a network switch port that is assigned to VLAN4, the switch starts generating 'Native VLAN mismatch detected' errors once every minute. Which of the following steps should be a part of the solution that you implement to stop the error messages from appearing?":
+    [
+      "Configure the router port connected to the network switch to use VLAN4.",
+      "Create a VLAN4 on the ADSL router's switch module.",
+    ],
   "You are logged in to user FINANCE. It is currently the only schema in the entire database. The following exist in the database:\n\nA VIEW named VENDORS\nA CONSTRAINT named VENDORS\nAn INDEX named CUSTOMER#ADDRESS\nYou attempt to execute the following SQL statement:\n\n\nCREATE TABLE CUSTOMER#ADDRESS\n(ID  NUMBER,\n   NAME VARCHAR2(30));\n\nWhich one of the following is true?":
     ["The SQL statement will execute, and the TABLE will be created."],
   "You are logged in to user account FRED and have been tasked with granting privileges to the user account ETHEL. You execute the following SQL statements:\n\n\nGRANT CREATE ANY TABLE TO ETHEL WITH ADMIN OPTION;\nREVOKE CREATE ANY TABLE FROM ETHEL;\n\nAssuming both statements execute successfully, what is the result?":
@@ -3255,6 +3483,8 @@ quiz = {
     ],
   "You are trying to determine whether to outsource an activity to a vendor by considering the cost implications, availability of r":
     ["Make or buy analysis"],
+  "You are working at the IT help desk when a user calls to report that he cannot access the Internet, although he can connect to the computers on the local network. At the user's workstation, you run the ipconfig /all command and examine the output. Which of the following options is the most likely explanation for the user's problem, based on the given ipconfig results?\n\n\nStart of code block\nWindows IP Configuration\n\n  Host Name . . . . . . . . . . . . : Client12\n  Primary Dns Suffix  . . . . . . . :\n  Node Type . . . . . . . . . . . . : Hybrid\n  IP Routing Enabled. . . . . . . . : No\n  WINS Proxy Enabled. . . . . . . . : No\n\nEthernet adapter Local Area Connection:\n\n  Connection-specific DNS Suffix  . :\n  Description . . . . . . . . . . . : PCIe Family Controller\n  Physical Address. . . . . . . . . : 60-EB-69-93-5E-E5\n  DHCP Enabled. . . . . . . . . . . : No\n  Autoconfiguration Enabled . . . . : Yes\n  Link-local IPv6 Address . . . . . : fe80::c955:c944:acdd:3fcb%2\n  IPv4 Address. . . . . . . . . . . : 192.168.23.234\n  Subnet Mask . . . . . . . . . . . : 255.255.255.0\n  Lease Obtained. . . . . . . . . . : Monday, October 23, 2017 6:23:47 PM\n  Lease Expires . . . . . . . . . . : Saturday, November 18, 2017 9:49:24 PM\n  Default Gateway . . . . . . . . . : 192.168.216.99\n  DHCPv6 IAID . . . . . . . . . . . : 241232745\n  DHCPv6 Client DUID  . . . . . . . : 00-01-00-01-18-10-22-0D-60-EB-69-93-5E-E5\n  DNS Servers . . . . . . . . . . . : 192.168.22.114\n  NetBIOS over Tcpip. . . . . . . . : Enabled\nEnd of code block":
+    ["The 'Default Gateway' setting is incorrect."],
   "You are working with senior management to determine the best approach for a high-visibility project. This will be a large projec":
     ["Hybrid lifecycle"],
   "You are working with your team to resolve a perplexing issue and need to get to the primary cause. Which tool will you most like":
@@ -3399,6 +3629,12 @@ quiz = {
     ["This is source selection criteria."],
   "Your software development project is reaching its end. This is a completely new system that is replacing the old legacy system,":
     ["Ensure the organization is ready to go live."],
+  "Your supervisor has asked you to increase the security of the servers on your network. Which of the following procedures can be considered to be the server hardening techniques?":
+    [
+      "Creating privileged user accounts",
+      "Disabling unnecessary services",
+      "Disabling unused TCP and UDP ports",
+    ],
   "Your team has been using Kanban for the duration of your current project. One of the participants who just joined the team asks":
     ["It works well for complex dependency relationships."],
   "Your team has been working on a construction project with a well-defined structure, cost, and schedule. Several mistakes and som":

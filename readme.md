@@ -1,4 +1,7 @@
-# ucertify-quiz-helper
+# [gemini](https://gemini.google/overview/gemini-in-chrome/)
+![gemini](./pic/gemini.png)
+
+# [dead] ucertify-quiz-helper
 [ucertify](https://docs.google.com/document/d/1EChf2k3wRUR1emCSNFwIyPv4wkFgdsQQMx4_BbEeIe8/edit?usp=sharing)
 ![demo](./pic/demo.png)
 

@@ -4170,4 +4170,196 @@ quiz = {
     ],
   "which of the following notations indicates a specialization/generalization with the disjoint constraint?":
     ["Blank triangle"],
+  "You are working as a cloud architect at Congruence Corp. Management has asked you to implement an internal virtualized infrastructure to provide the company's employees with on-demand storage which should be accessible through a web interface over the public Internet. Which of the following cloud deployment models will you use to implement this?": [
+    "Private"
+  ],
+  "Which cloud concept makes networks more agile by separating the forwarding of network packets from the logical decision-making process?": [
+    "Software-defined networking"
+  ],
+  "Which of the following is the process of obfuscating data such that only authorized individuals can read the data?": [
+    "Encryption"
+  ],
+  "Which of the following storage solutions saves space by eliminating files or blocks that have redundant data?": [
+    "Deduplication"
+  ],
+  "Which of the following International Organization for Standardization (ISO) standards is specific to CSPs and details information security?": [
+    "27017"
+  ],
+  "Which of the following helps to determine the compliance, security, and privacy guidelines during cloud assessment?": [
+    "Feasibility study"
+  ],
+  "Which of the following security policies defines behaviors and activities that are acceptable in an organization?": [
+    "Advisory"
+  ],
+  "Bob is a new cloud+ architect for BigCo Inc. He is using a cloud service that provides computing hardware, but the operating system is not included. Which of the following cloud services is he using?": [
+    "Infrastructure as a service"
+  ],
+  "Ron, a security analyst, found an unknown design flaw in a product. He notices that correcting the flaw would be cost-prohibitive and would only affect a very small number of customers. Rather than recalling the product, he decided to simply leave the product as it is. This is best described as what type of risk response technique?": [
+    "Acceptance"
+  ],
+  "Which of the following laws reforms the financial services industry and specifically addressed concerns about protecting consumer privacy?": [
+    "Gramm-Leach-Bliley Act"
+  ],
+  "Which of the following processes strives to make automation efficient and manageable?": [
+    "Orchestration"
+  ],
+  "Which of the following standards is concerned with HIPAA, GLBA, PCI DSS, and FINRA?": [
+    "Industry-based"
+  ],
+  "You are working as a cloud engineer at Congruence Corp. Management has asked you to move the company's extensive on-premises IT infrastructure to the cloud. Because of the cost involved, you have decided to move some services this fiscal year and move the rest of the services next fiscal year. Which migration approach will you use?": [
+    "Phased"
+  ],
+  "Which of the following services do managed service providers (MSPs) deliver?": [
+    "Backup and recovery",
+    "Performance testing"
+  ],
+  "Erika, a project manager, identifies a project risk that could harm the team members. So, she hires a professional vendor to complete the critical part of the project. What type of risk response is she using for handling the potential risks?": [
+    "Transference"
+  ],
+  "Who is responsible not only for an organization's asset but also for the risk response to any identified threat to the said asset?": [
+    "Asset owner",
+    "Risk owner"
+  ],
+  "You are negotiating cloud services with a CSP. You need to ensure that your organization can get more storage space without CSP intervention. Which service do you need?": [
+    "Capacity on demand"
+  ],
+  "What are the four cloud deployment models?": [
+    "Public, private, hybrid, and community"
+  ],
+  "You are working as a cloud administrator at BigCo. Management has asked you to move the company's on-premises data to the cloud. You have received a request from the network administration team while migrating. They want to manage both the Linux- and Windows-based servers efficiently. What should you implement to accomplish this task?": [
+    "Secure Shell",
+    "Remote Desktop Protocol"
+  ],
+  "Tom is working as a cloud administrator at BigCo. Management has asked him to increase the security of the company's cloud resources so that no unauthorized users can access the resources. For this purpose, he has developed an application that requires users to enter a password along with a randomized security code that will be sent to their mobile phone every time they attempt to log into the cloud. Which service has he implemented in the application?": [
+    "Multifactor authentication"
+  ],
+  "What are the benefits of using digital marketing?": [
+    "Real-time results, monitoring, and optimization",
+    "Campaign automation and integration"
+  ],
+  "Which of the following laws requires publicly traded companies to have proper internal control structures in place to validate that their financial statements accurately reflect their financial results?": [
+    "Sarbanes-Oxley Act"
+  ],
+  "Which storage offerings will have a cost associated with the amount of data stored, even if the resource using the storage is powered off?": [
+    "Block storage",
+    "File storage",
+    "Object storage"
+  ],
+  "A company has purchased a new system, but security personnel is spending a lot of time on system maintenance. A new third party vendor has been selected for maintaining the company's system. Which of the following documents should be created before assigning the job to the vendor?": [
+    "Service level agreement"
+  ],
+  "Frank, the CEO of an organization, has set up a team to periodically evaluate regulatory compliance along with associated documentation. His team implemented a policy that focuses on protecting the information that uniquely recognizes a person, either on its own or in conjunction with other information. Which of the following types of regulated information is this?": [
+    "Personally identifiable information"
+  ],
+  "You are working as a cloud engineer at Congruence Corp. Management has asked you to run a small cloud evaluation in the production environment to see if there are any application compatibility issues. What will you use to accomplish this task?": [
+    "Pilot"
+  ],
+  "Which of the following are examples of the free-for-use software license?": [
+    "Apache",
+    "Linux"
+  ],
+  "Which of the following cloud assessment techniques determines the difference between where a company is now in business and technical readiness versus where it needs to be?": [
+    "Gap analysis"
+  ],
+  "What is the first step of searching the right cloud vendor?": [
+    "Request for information"
+  ],
+  "In the shared security model of the cloud, who is responsible for securing access management and firewall configurations?": [
+    "Client"
+  ],
+  "Which of the following is a final step that you will perform in the cloud assessment process?": [
+    "Create documentation and diagrams."
+  ],
+  "Which of the following cloud storage types allows an operating system to modify one portion of a file without opening the entire file?": [
+    "Block"
+  ],
+  "Harold is a software developer for NiCo Inc. Management has asked him to migrate the company's database application to the cloud. The company only wants to be responsible for the application and would prefer that the public cloud company manage all underlying infrastructure and servers that are required to support the application. Which of the following cloud service models will he use to accomplish this task?": [
+    "Platform as a service"
+  ],
+  "David is working as a cloud administrator at NilCo. He is performing a cloud assessment for the company's new applications. Management has asked him to determine the capabilities that can be offloaded to the cloud and the level of support services needed. What will he use to accomplish this task?": [
+    "Feasibility study"
+  ],
+  "What refers to the ability of a client to acquire additional cloud resources without supplier intervention?": [
+    "Self-service"
+  ],
+  "Which of the following risks should be considered during and after the migration process while performing the right migration steps?": [
+    "Security risks",
+    "Complexity creep"
+  ],
+  "Which of the following is a short-term process designed to have employees develop skills or obtain knowledge to perform their jobs?": [
+    "Training"
+  ],
+  "What storage type is used for the OS boot partition of an instance running in the cloud?": [
+    "Block"
+  ],
+  "In dealing with risks, which response is accomplished when an organization purchases insurance to protect the income when a disaster or threat is realized?": [
+    "Transference"
+  ],
+  "Which of the following statements are correct regarding synchronous replication?": [
+    "It is limited by the distance between the locations.",
+    "It writes data to multiple locations in real-time."
+  ],
+  "Which of the following allows clients to remotely connect to a virtual Linux machine, securely, and act as if the user were sitting at the virtual computer?": [
+    "Secure Shell"
+  ],
+  "Which of the following International Organization for Standardization (ISO) standards covers the following topics?\nRemoval and return of cloud service customer assets upon contract termination\nProtection and separation of a customer's virtual environment\nVirtual machine hardening requirements to meet business needs": [
+    "27017"
+  ],
+  "Which of the following is an act of locating weaknesses and vulnerabilities of information systems by copying the intent and actions of malicious hackers?": [
+    "Penetration testing"
+  ],
+  "Patrick is working as a cloud administrator at BigCo. He is looking at business requirements that specify the data available at the disaster recovery site must not be more than 48 hours old. Which of the following metrics correctly relates to these requirements?": [
+    "Recovery point objective"
+  ],
+  "What refers to a semi-public intermediary network located between two firewalls?": [
+    "Demilitarized zone"
+  ],
+  "You are working as a software engineer at XYZ Inc. You just received an email reporting suspicious activity from the CEO's account. The email provides a link to review the suspicious activity and immediately lock the account. You want to review the suspicious activity before manually locking the CEO's account, so you click the first link. Which data security principle did you just violate?": [
+    "Integrity"
+  ],
+  "Joe is working as a product manager at NilCo. He is planning to make sure that an upcoming company promotion during a major sporting event does not overwhelm his company's cloud-based e-commerce site. For this, he needs to add capacity to the company's web server so it can process the anticipated additional workload dynamically. What should he use?": [
+    "Horizontal scaling",
+    "Vertical scaling"
+  ],
+  "Janice manages the MySQL database backend that runs on a multi-CPU instance that has reached 100 percent utilization. The database can run on only a single server. What should she use to support the requirements of this database?": [
+    "Vertical scaling"
+  ],
+  "Which of the following are benefits of using an open-source cloud solution?": [
+    "Flexibility in development",
+    "Faster updates"
+  ],
+  "John works as a security analyst at XYZ. His organization uses Telnet for remote management. To ensure more secure client-server connections, he recognizes a necessity to replace Telnet with an encrypted network protocol. What should he use to accomplish this task?": [
+    "Secure Shell"
+  ],
+  "Roman is the network administrator for a company. The company is currently managing an on-premises network, using cloud services, or running some combination of the two. Management has asked Roman to prepare a report regarding the performance of the current environment so that they can manage or improve the performance of their environment. What will he use to accomplish this task?": [
+    "Baseline"
+  ],
+  "Stella, a cloud+ student, is learning the process of evaluating current resources used in on-premises data centers to determine the resources required in the cloud. What is she learning about?": [
+    "Right-sizing"
+  ],
+  "Which of the following are examples of an operating expenditure?": [
+    "Property taxes and insurance",
+    "Licensing fees"
+  ],
+  "A company hires contractors for six months to work on projects. After six months, a new team of contractors will be brought in. Which type of software licensing allows the licenses to be transferred from the first group to the second group?": [
+    "Bring your own license"
+  ],
+  "Bob, a user, enters a username and a password at the beginning of a session and accesses multiple applications. He does not need to re-authenticate for accessing each application. Which of the following authentication processes is he using?": [
+    "Single sign-on"
+  ],
+  "George is a senior cloud architect at BigCo. He is working on a project to interconnect his company's private data center to a cloud company that offers e-mail and other services that can provide burstable compute capacity. What type of cloud deployment model is he creating?": [
+    "Hybrid"
+  ],
+  "Which of the following documents includes the defined steps that an individual or an organization takes once an event occurs?": [
+    "Standard operating procedure"
+  ],
+  "Which cloud computing model provides only low-level server resources to host applications for organizations?": [
+    "Infrastructure as a service"
+  ],
+  "After conducting a qualitative risk assessment of her organization, Sally recommends purchasing cybersecurity breach insurance. What type of risk response behavior is she recommending?": [
+    "Transference"
+  ],
+  "How many classification levels are there in the risk classification system?": [
+    "Five"
+  ]
 };

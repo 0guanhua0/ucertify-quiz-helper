@@ -13,6 +13,10 @@ quiz = {
     ],
   "A company has provided kiosks to employees within the organization's boundaries. However, some of the kiosks are in close proximity to a shopping center. The management is concerned about someone accessing the Internet via the kiosk's wireless network. The network technician has been asked to implement a solution that will provide wireless access only to the employees working at the kiosk. Which of these should the network technician implement?":
     ["Switch port security"],
+  "A company has purchased a new system, but security personnel is spending a lot of time on system maintenance. A new third party vendor has been selected for maintaining the company's system. Which of the following documents should be created before assigning the job to the vendor?":
+    ["Service level agreement"],
+  "A company hires contractors for six months to work on projects. After six months, a new team of contractors will be brought in. Which type of software licensing allows the licenses to be transferred from the first group to the second group?":
+    ["Bring your own license"],
   "A company is concerned about the possible attacks on its network by the attackers to gain access to confidential research data. Which of these is a type of vulnerable system that could be implemented to redirect any attackers on the network?":
     ["Honeypot"],
   "A company is setting up a new branch office. The new office will have two departments, Finance and Engineering. The Finance department will have 55 employees and the Engineering department will have 5 employees. The IP subscribed from the ISP is 192.168.1.0/29. The network administrator is configuring the subnets for the two departments starting with the Finance department. What will be the last host address on the Engineering subnet?":
@@ -213,6 +217,8 @@ quiz = {
     [
       "They should be kept in the project file and privacy guidelines respected.",
     ],
+  "After conducting a qualitative risk assessment of her organization, Sally recommends purchasing cybersecurity breach insurance. What type of risk response behavior is she recommending?":
+    ["Transference"],
   "After delivering the final sprint, and the last iteration completed all desired user stories,":
     ["The iteration backlog"],
   "After the customer has accepted the final deliverable, what should the project manager ensure":
@@ -408,6 +414,10 @@ quiz = {
     ["True"],
   "Big data comes from a variety of sources within an organization, including marketing and sales transaction, inventory records, financial transaction, and human resources and accounting records.":
     ["False"],
+  "Bob is a new cloud+ architect for BigCo Inc. He is using a cloud service that provides computing hardware, but the operating system is not included. Which of the following cloud services is he using?":
+    ["Infrastructure as a service"],
+  "Bob, a user, enters a username and a password at the beginning of a session and accesses multiple applications. He does not need to re-authenticate for accessing each application. Which of the following authentication processes is he using?":
+    ["Single sign-on"],
   "Both RIPv1 and RIPv2 are distance-vector protocols, which means that each router running RIP sends its complete routing tables out to all active interfaces at periodic time intervals.":
     ["True"],
   "Broadband is frequently used for referring to fast Internet connections instead of slow ones.":
@@ -519,6 +529,8 @@ quiz = {
     [
       "David should have understood the information needs of the stakeholders and should have sent them only the relevant information they need.",
     ],
+  "David is working as a cloud administrator at NilCo. He is performing a cloud assessment for the company's new applications. Management has asked him to determine the capabilities that can be offloaded to the cloud and the level of support services needed. What will he use to accomplish this task?":
+    ["Feasibility study"],
   "Decibels can be used to describe the absolute power level of a signal that's being sent or received or the relative losses due to the transmission medium.":
     ["True"],
   "Decision trees are part of the regression type prediction methods.": [
@@ -627,6 +639,8 @@ quiz = {
   "Earned value is measured by the amount of cost incurred throughout the life of the project.":
     ["False"],
   "Equijoins look for:": ["Exact data matches"],
+  "Erika, a project manager, identifies a project risk that could harm the team members. So, she hires a professional vendor to complete the critical part of the project. What type of risk response is she using for handling the potential risks?":
+    ["Transference"],
   "Essential WAN technologies include user-level connections, such as cable, DSL, or 4G.":
     ["True"],
   "Ethernet addressing uses the MAC address burned into each and every Ethernet NIC.":
@@ -679,10 +693,14 @@ quiz = {
     ["True"],
   "For which of the following checkpoint actions does the fuzzy checkpointing technique come into use to overcome from the action?":
     ["Suspend execution of transactions temporarily."],
+  "Frank, the CEO of an organization, has set up a team to periodically evaluate regulatory compliance along with associated documentation. His team implemented a policy that focuses on protecting the information that uniquely recognizes a person, either on its own or in conjunction with other information. Which of the following types of regulated information is this?":
+    ["Personally identifiable information"],
   "From iteration to iteration, a team will face challenges. The project leader will focus on helping the team members to overcome":
     ["Spike"],
   "From the following table, which stakeholder will be the project manager's highest priority stakeholder to reach out to?":
     ["Stakeholder A"],
+  "George is a senior cloud architect at BigCo. He is working on a project to interconnect his company's private data center to a cloud company that offers e-mail and other services that can provide burstable compute capacity. What type of cloud deployment model is he creating?":
+    ["Hybrid"],
   "Given the following code snippet and blank lines on p1 and p2, which values guarantee that 1 is printed at runtime?\n\n\nStart of code block\nvar data = List.of(List.of(1,2),\n   List.of(3,4),\n   List.of(5,6));\ndata.___________    // p1\n   .flatMap(s -> s.stream())\n   .____________    // p2\n   .ifPresent(System.out::print);\n\nEnd of code block":
     [
       "parallelStream() on line p1, findFirst() on line p2",
@@ -706,6 +724,8 @@ quiz = {
     ["True"],
   "Handling the missing values in the data is typically performed in the data consolidation phase.":
     ["False"],
+  "Harold is a software developer for NiCo Inc. Management has asked him to migrate the company's database application to the cloud. The company only wants to be responsible for the application and would prefer that the public cloud company manage all underlying infrastructure and servers that are required to support the application. Which of the following cloud service models will he use to accomplish this task?":
+    ["Platform as a service"],
   "High memory utilization can be as severe as a saturated CPU.": ["True"],
   "Homoscedasticity states that the response variables must have the same variance in their error, regardless of the explanatory variables' values.":
     ["True"],
@@ -720,6 +740,8 @@ quiz = {
   ],
   "How many broadcast domains are created when an unmanaged 12-port switch is used?":
     ["1"],
+  "How many classification levels are there in the risk classification system?":
+    ["Five"],
   "How many sequential steps exist in the CRISP-DM methodology?": ["Six"],
   "How many tables can be joined in a query?": ["One, two, three, or more"],
   "How would you best classify the cost of raw materials on a project?": [
@@ -799,6 +821,8 @@ quiz = {
   ],
   "In data mining, the prediction models are further sub-classified into __________, __________, and __________.":
     ["classification", "regression", "time-series forecasting"],
+  "In dealing with risks, which response is accomplished when an organization purchases insurance to protect the income when a disaster or threat is realized?":
+    ["Transference"],
   "In ensemble modeling, bagging uses the bootstrap sampling of cases to create a collection of decision trees.":
     ["True"],
   "In ensemble modeling, boosting builds several independent simple trees for the resultant prediction model.":
@@ -862,6 +886,8 @@ quiz = {
     ["True"],
   "In the sender-receiver model of communication, the person who receives the message is":
     ["Decode"],
+  "In the shared security model of the cloud, who is responsible for securing access management and firewall configurations?":
+    ["Client"],
   "In the term-by-document matrix, the columns represent the terms and the rows represent the documents, and the cells represent the variances.":
     ["False"],
   "In the testing and evaluation step of the CRISP-DM methodology, monitoring and maintenance of the models are important.":
@@ -946,14 +972,20 @@ quiz = {
     ["MAN"],
   "Jane, a user on a company's network, is not able to access the shared printer and other resources. However, she can reach the Internet. Other users are not having any such problem. What can be the cause of the issue mentioned in the given scenario?":
     ["Incorrect VLAN assignment"],
+  "Janice manages the MySQL database backend that runs on a multi-CPU instance that has reached 100 percent utilization. The database can run on only a single server. What should she use to support the requirements of this database?":
+    ["Vertical scaling"],
   "Jennifer, a network administrator, is troubleshooting an expansion card in a computer that allows the computer to receive faxes over a VoIP line. Which of the following cable types is used to connect the line to the expansion card?":
     ["CAT6"],
   "Jennifer, a network analyst, has been tasked to limit the users that can connect to a network printer located centrally within an office environment. Which of the following tools will Jennifer use to complete this task?":
     ["ACL"],
   "Jim, the marketing manager in the company, is interested in the sales numbers in the south region by each product type for the last six months. What type of analytics would you use to help him?":
     ["Descriptive"],
+  "Joe is working as a product manager at NilCo. He is planning to make sure that an upcoming company promotion during a major sporting event does not overwhelm his company's cloud-based e-commerce site. For this, he needs to add capacity to the company's web server so it can process the anticipated additional workload dynamically. What should he use?":
+    ["Horizontal scaling", "Vertical scaling"],
   "Joey, a security analyst, is tasked to implement multi-factor authentication in a company. On the basis of the authentication factors, which of the following are the best implementations that he should deploy?":
     ["Biometrics, smart cards, and strong passwords"],
+  "John works as a security analyst at XYZ. His organization uses Telnet for remote management. To ensure more secure client-server connections, he recognizes a necessity to replace Telnet with an encrypted network protocol. What should he use to accomplish this task?":
+    ["Secure Shell"],
   "Knowledge transfer occurs between team members both intentionally and unintentionally. The organization will benefit least from":
     ["Templates for all portions of the process to expedite the work"],
   "Last-minute changes were made recently to the training plan due to additional scope requirements. This is an acceptable choice t":
@@ -1145,6 +1177,8 @@ quiz = {
   "Overfitting is the notion of making the model too specific to the training data to capture not only the signal but also the noise in the data set.":
     ["True"],
   "PHP variable names start with": ["$"],
+  "Patrick is working as a cloud administrator at BigCo. He is looking at business requirements that specify the data available at the disaster recovery site must not be more than 48 hours old. Which of the following metrics correctly relates to these requirements?":
+    ["Recovery point objective"],
   "Penny is compiling a list of costs incurred so far on a project. She must categorize these costs so that she can present the amo":
     ["Travel expenses to the customer's office"],
   "Per PMI, what are the three processes that comprise planning for and acquiring project resources?":
@@ -1455,6 +1489,10 @@ quiz = {
     ],
   "Risks are broken into two main categories: positive risks that are called opportunities and negative risks that are called threa":
     ["True"],
+  "Roman is the network administrator for a company. The company is currently managing an on-premises network, using cloud services, or running some combination of the two. Management has asked Roman to prepare a report regarding the performance of the current environment so that they can manage or improve the performance of their environment. What will he use to accomplish this task?":
+    ["Baseline"],
+  "Ron, a security analyst, found an unknown design flaw in a product. He notices that correcting the flaw would be cost-prohibitive and would only affect a very small number of customers. Rather than recalling the product, he decided to simply leave the product as it is. This is best described as what type of risk response technique?":
+    ["Acceptance"],
   "Roy, a network administrator, needs to delete the DNS cache and the current cache that has incorrect entries. Which of the following parameters will he use?":
     ["/flushdns"],
   "SCM and ERP are the first two beneficiaries of the NLP and WordNet.": [
@@ -1519,6 +1557,8 @@ quiz = {
     [
       "Because network routes are automatically added to the routing table via the routing protocol",
     ],
+  "Stella, a cloud+ student, is learning the process of evaluating current resources used in on-premises data centers to determine the resources required in the cloud. What is she learning about?":
+    ["Right-sizing"],
   "Structured data is usually organized into records with simple data values that include __________, __________, and __________ variables.":
     ["categorical", "continuous", "ordinal"],
   "Switches can create multiple broadcast domains by partitioning the network into the software. What are these domains called?":
@@ -1944,6 +1984,8 @@ quiz = {
     ["True"],
   "Tokenizing refers to the process of breaking sentences into blocks of text that performs a specific linguistic function.":
     ["True"],
+  "Tom is working as a cloud administrator at BigCo. Management has asked him to increase the security of the company's cloud resources so that no unauthorized users can access the resources. For this purpose, he has developed an application that requires users to enter a password along with a randomized security code that will be sent to their mobile phone every time they attempt to log into the cloud. Which service has he implemented in the application?":
+    ["Multifactor authentication"],
   "Training artifacts include components such as courseware, lab configurations, pre-tests":
     ["True"],
   "Two team members disagree about the purpose of the lessons learned exercise that occurs occasionally during the project. All of":
@@ -2023,6 +2065,10 @@ quiz = {
       "Scalability",
       "Sharding of files",
     ],
+  "What are the benefits of using digital marketing?": [
+    "Campaign automation and integration",
+    "Real-time results, monitoring, and optimization",
+  ],
   "What are the broad categories of risk classification? (Choose two.)": [
     "Effect-based risk classification",
     "Source-based risk classification",
@@ -2040,6 +2086,9 @@ quiz = {
   ],
   "What are the four aspects of emotional intelligence?": [
     "Self-awareness, self-management, social awareness, and social skill",
+  ],
+  "What are the four cloud deployment models?": [
+    "Public, private, hybrid, and community",
   ],
   "What are the four primary components of leadership skills per PMI?": [
     "Establishing and maintaining vision, critical thinking, motivation, and interpersonal skills",
@@ -2169,6 +2218,9 @@ quiz = {
   "What is the first step of an algorithm for ER-to-relational mapping?": [
     "Mapping of regular entity types",
   ],
+  "What is the first step of searching the right cloud vendor?": [
+    "Request for information",
+  ],
   "What is the last phase of the database design process?": ["Physical design"],
   "What is the main drawback of NoSQL functions in database processing?": [
     "They have traded ACID compliance for performance and scalability.",
@@ -2219,8 +2271,14 @@ quiz = {
     ["Duplication of effort", "Inconsistency", "Wastage of storage space"],
   "What reduces the contention for CPU and I/O services and simultaneously reduces access delays involved in wide area networks?":
     ["Data localization"],
+  "What refers to a semi-public intermediary network located between two firewalls?":
+    ["Demilitarized zone"],
+  "What refers to the ability of a client to acquire additional cloud resources without supplier intervention?":
+    ["Self-service"],
   "What should you do if you cannot connect to an AP and you've verified that your DHCP configuration and WEP key are correct?":
     ["Check the MAC address filtering on the AP."],
+  "What storage type is used for the OS boot partition of an instance running in the cloud?":
+    ["Block"],
   "What term is used to describe the Tuckman Ladder team development model?": [
     "Forming, Storming, Norming, Performing",
   ],
@@ -2393,6 +2451,10 @@ quiz = {
     ["Bayesian classifiers"],
   "Which clause is used at the end of a SQL statement to aggregate data across multiple records and then group the results?":
     ["group by clause"],
+  "Which cloud computing model provides only low-level server resources to host applications for organizations?":
+    ["Infrastructure as a service"],
+  "Which cloud concept makes networks more agile by separating the forwarding of network packets from the logical decision-making process?":
+    ["Software-defined networking"],
   "Which clustering method is based on the basic idea that nearby objects are more related to each other than are those that are farther away from each other?":
     ["Hierarchical"],
   "Which command captures the traffic on all interfaces?": ["tcpdump -i any"],
@@ -2475,6 +2537,10 @@ quiz = {
   "Which of the following IP addresses is reserved for private use?": [
     "10.100.200.0",
   ],
+  "Which of the following International Organization for Standardization (ISO) standards covers the following topics?\nRemoval and return of cloud service customer assets upon contract termination\nProtection and separation of a customer's virtual environment\nVirtual machine hardening requirements to meet business needs":
+    ["27017"],
+  "Which of the following International Organization for Standardization (ISO) standards is specific to CSPs and details information security?":
+    ["27017"],
   "Which of the following Java technologies exists on the Web server machine and manages interactions with the client?":
     ["Java Servlet"],
   "Which of the following Java technologies for database Web programming are Java objects that can reside on the Web server machine and manage interactions with the client?":
@@ -2532,6 +2598,8 @@ quiz = {
     ["Iteration Review and Validate Scope"],
   "Which of the following algorithms was the first algorithm to use the downward closure and antimontonicity properties?":
     ["Apriori"],
+  "Which of the following allows clients to remotely connect to a virtual Linux machine, securely, and act as if the user were sitting at the virtual computer?":
+    ["Secure Shell"],
   "Which of the following application areas make use of association rule mining?":
     ["All of these"],
   "Which of the following applications analyzes large amount of data to search for the occurrences of specific patterns or relationships?":
@@ -2564,6 +2632,8 @@ quiz = {
       "Project information is archived.",
       "Team members are released to pursue new endeavors.",
     ],
+  "Which of the following are benefits of using an open-source cloud solution?":
+    ["Faster updates", "Flexibility in development"],
   "Which of the following are common functions associated with projects?": [
     "Perform work and contribute insights, provide business direction and insight, maintain governance",
   ],
@@ -2585,10 +2655,18 @@ quiz = {
     "Active listening",
     "Timely",
   ],
+  "Which of the following are examples of an operating expenditure?": [
+    "Licensing fees",
+    "Property taxes and insurance",
+  ],
   "Which of the following are examples of business value? (Choose three.)": [
     "25 percent increase in sales",
     "3 percent increase in market share",
     "Our product will be nationwide",
+  ],
+  "Which of the following are examples of the free-for-use software license?": [
+    "Apache",
+    "Linux",
   ],
   "Which of the following are included in the cost baseline? (Choose three.)": [
     "Activity cost estimate",
@@ -2730,6 +2808,10 @@ quiz = {
   ],
   "Which of the following clauses or functions can limit the rows returned by a query? (Choose two.)":
     ["Fetch next rows", "rownum"],
+  "Which of the following cloud assessment techniques determines the difference between where a company is now in business and technical readiness versus where it needs to be?":
+    ["Gap analysis"],
+  "Which of the following cloud storage types allows an operating system to modify one portion of a file without opening the entire file?":
+    ["Block"],
   "Which of the following columns would be least useful to the project team on a stakeholder register?":
     ["The work packages for which the stakeholder would take responsibility"],
   "Which of the following combinations will form a two-factor authentication process?":
@@ -2792,6 +2874,8 @@ quiz = {
     ["Firewall"],
   "Which of the following disasters is not included in the accidents and disasters category during threat assessment?":
     ["Equipment failure"],
+  "Which of the following documents includes the defined steps that an individual or an organization takes once an event occurs?":
+    ["Standard operating procedure"],
   "Which of the following does not represent the SMART criteria?": [
     "Analytical",
   ],
@@ -2831,6 +2915,8 @@ quiz = {
     ["COUNT"],
   "Which of the following functions will take a character string as an argument and then return that character string in a modified form?":
     ["All of these"],
+  "Which of the following helps to determine the compliance, security, and privacy guidelines during cloud assessment?":
+    ["Feasibility study"],
   "Which of the following incident goals ensures that incident prevention and response follow the organization's policies plus any relevant laws, business agreements, or generally expected industry practices?":
     ["Regulatory compliance"],
   "Which of the following indexes requires that the ordering field of the data file has a distinct value for each record as well as records are of fixed length with":
@@ -2853,6 +2939,10 @@ quiz = {
   ],
   "Which of the following is NOT an objective of the risk monitoring process?":
     ["Implement the agreed-upon risk response plans."],
+  "Which of the following is a final step that you will perform in the cloud assessment process?":
+    ["Create documentation and diagrams."],
+  "Which of the following is a short-term process designed to have employees develop skills or obtain knowledge to perform their jobs?":
+    ["Training"],
   "Which of the following is a specific recovery scheme used in many of IBM's relational database products?":
     ["ARIES algorithm"],
   "Which of the following is a true statement?": [
@@ -2865,6 +2955,8 @@ quiz = {
   ],
   "Which of the following is an abstraction concept for building composite objects from their component objects?":
     ["Aggregation"],
+  "Which of the following is an act of locating weaknesses and vulnerabilities of information systems by copying the intent and actions of malicious hackers?":
+    ["Penetration testing"],
   "Which of the following is an approach that eliminates the generation of a large number of candidate itemsets?":
     ["Frequent-pattern-growth algorithm"],
   "Which of the following is an out-of-control situation?": [
@@ -2947,6 +3039,8 @@ quiz = {
   ],
   "Which of the following is the most relevant methodology that is used to implement data science and business analytics projects?":
     ["CRISP-DM"],
+  "Which of the following is the process of obfuscating data such that only authorized individuals can read the data?":
+    ["Encryption"],
   "Which of the following is the special case where the class is predicted to be the class of the closest training sample?":
     ["k-nearest neighbor algorithm"],
   "Which of the following is the system privilege that empowers the grantee to create an index in his or her own user account but not in the accounts of others?":
@@ -3006,6 +3100,10 @@ quiz = {
   "Which of the following languages is a platform-independent and programming language-independent protocol for messaging and remote procedure calls?":
     ["SOAP"],
   "Which of the following languages specifies the internal schema?": ["SDL"],
+  "Which of the following laws reforms the financial services industry and specifically addressed concerns about protecting consumer privacy?":
+    ["Gramm-Leach-Bliley Act"],
+  "Which of the following laws requires publicly traded companies to have proper internal control structures in place to validate that their financial statements accurately reflect their financial results?":
+    ["Sarbanes-Oxley Act"],
   "Which of the following layer 1 devices connects multiple nodes into a star configuration?":
     ["Hub"],
   "Which of the following layers of the OSI model provides delivery and formatting of information for processing and display?":
@@ -3101,6 +3199,8 @@ quiz = {
       "Determine if anything has changed.",
       "Question users.",
     ],
+  "Which of the following processes strives to make automation efficient and manageable?":
+    ["Orchestration"],
   "Which of the following properties is enforced by the concurrency control subsystem of the DBMS?":
     ["Isolation"],
   "Which of the following protocols allows active-active load balancing?": [
@@ -3131,6 +3231,8 @@ quiz = {
     ["WHERE"],
   "Which of the following reserved words is/are optional in a complete DELETE statement? (Choose all that apply)":
     ["FROM", "WHERE"],
+  "Which of the following risks should be considered during and after the migration process while performing the right migration steps?":
+    ["Complexity creep", "Security risks"],
   "Which of the following rules must be enforced when the shared/exclusive locking scheme is used?":
     [
       "A transaction must issue the operation read_lock(X) or write_lock(X) before any read_item(X) operation is performed in the transaction.",
@@ -3146,8 +3248,12 @@ quiz = {
     ["Federated"],
   "Which of the following security features is designed to prevent DoS and reconnaissance attacks, which utilize the control plane of software-defined networks?":
     ["CoPP"],
+  "Which of the following security policies defines behaviors and activities that are acceptable in an organization?":
+    ["Advisory"],
   "Which of the following sequences of tasks represents the text mining process?":
     ["Establish the corpus, preprocess the data, and extract the knowledge."],
+  "Which of the following services do managed service providers (MSPs) deliver?":
+    ["Backup and recovery", "Performance testing"],
   "Which of the following services provides the desktop and other resources?": [
     "DaaS",
   ],
@@ -3160,6 +3266,8 @@ quiz = {
     ["Definitive stakeholders"],
   "Which of the following standards are used within the telecommunication networks?":
     ["Frame Relay", "MPLS"],
+  "Which of the following standards is concerned with HIPAA, GLBA, PCI DSS, and FINRA?":
+    ["Industry-based"],
   "Which of the following standards utilize MIMO on non-overlapping channels?":
     ["802.11ac", "802.11n"],
   "Which of the following statements about set operators is true? Choose the best answer.":
@@ -3169,6 +3277,11 @@ quiz = {
     "The target system must be able to recognize and act on the data it receives.",
     "There must be a physical connection between all points on the network.",
   ],
+  "Which of the following statements are correct regarding synchronous replication?":
+    [
+      "It is limited by the distance between the locations.",
+      "It writes data to multiple locations in real-time.",
+    ],
   "Which of the following statements are not true about the OSI model?": [
     "It describes network communication in terms of the underlying network technology or structure.",
     "It is a suite of protocols that serves as the world's primary network standard.",
@@ -3397,6 +3510,8 @@ quiz = {
     ["Data understanding"],
   "Which of the following steps of the CRISP-DM process is commonly called the data preprocessing step that produces the data identified in the data understanding step for analysis?":
     ["Data preparation"],
+  "Which of the following storage solutions saves space by eliminating files or blocks that have redundant data?":
+    ["Deduplication"],
   "Which of the following strategies updates a view as soon as the base tables are changed?":
     ["Immediate update"],
   "Which of the following strategies updates a view when needed by a view query?":
@@ -3686,6 +3801,8 @@ quiz = {
     ["Mapping of binary 1:1 relationship types"],
   "Which step of the ER-to-relational mapping algorithm has the foreign key approach and the cross-reference or relationship relation approach?":
     ["Mapping of binary 1:N relationship types"],
+  "Which storage offerings will have a cost associated with the amount of data stored, even if the resource using the storage is powered off?":
+    ["Block storage", "File storage", "Object storage"],
   "Which subquery includes references to the parent query and thus cannot execute as a standalone query? (Choose the best answer.)":
     ["A correlated subquery"],
   "Which switch displays both workstation and server sessions but lists remote addresses by IP address only?":
@@ -3749,6 +3866,8 @@ quiz = {
   "Who is responsible for tailoring project processes and procedures?": [
     "The project manager and the team",
   ],
+  "Who is responsible not only for an organization's asset but also for the risk response to any identified threat to the said asset?":
+    ["Asset owner", "Risk owner"],
   "Who should the project manager interact with when performing integration processes?":
     ["Any stakeholder"],
   "Who would least likely be considered a stakeholder in the following situations?":
@@ -3898,6 +4017,8 @@ quiz = {
     ["During the daily standup meeting"],
   "You are near the end of a sprint when a stakeholder identifies some additional requirements they would like to include. What sho":
     ["Add the requirement to the product backlog."],
+  "You are negotiating cloud services with a CSP. You need to ensure that your organization can get more storage space without CSP intervention. Which service do you need?":
+    ["Capacity on demand"],
   "You are on a project to develop an aircraft engine and are working on finalizing the costs for work packages, activities, and co":
     ["Cost aggregation"],
   "You are on your third sprint, and senior management is concerned that you have not created a cost baseline yet for your project.":
@@ -3952,6 +4073,16 @@ quiz = {
     ["Escalate the issue."],
   "You are trying to determine whether to outsource an activity to a vendor by considering the cost implications, availability of r":
     ["Make or buy analysis"],
+  "You are working as a cloud administrator at BigCo. Management has asked you to move the company's on-premises data to the cloud. You have received a request from the network administration team while migrating. They want to manage both the Linux- and Windows-based servers efficiently. What should you implement to accomplish this task?":
+    ["Remote Desktop Protocol", "Secure Shell"],
+  "You are working as a cloud architect at Congruence Corp. Management has asked you to implement an internal virtualized infrastructure to provide the company's employees with on-demand storage which should be accessible through a web interface over the public Internet. Which of the following cloud deployment models will you use to implement this?":
+    ["Private"],
+  "You are working as a cloud engineer at Congruence Corp. Management has asked you to move the company's extensive on-premises IT infrastructure to the cloud. Because of the cost involved, you have decided to move some services this fiscal year and move the rest of the services next fiscal year. Which migration approach will you use?":
+    ["Phased"],
+  "You are working as a cloud engineer at Congruence Corp. Management has asked you to run a small cloud evaluation in the production environment to see if there are any application compatibility issues. What will you use to accomplish this task?":
+    ["Pilot"],
+  "You are working as a software engineer at XYZ Inc. You just received an email reporting suspicious activity from the CEO's account. The email provides a link to review the suspicious activity and immediately lock the account. You want to review the suspicious activity before manually locking the CEO's account, so you click the first link. Which data security principle did you just violate?":
+    ["Integrity"],
   "You are working at the IT help desk when a user calls to report that he cannot access the Internet, although he can connect to the computers on the local network. At the user's workstation, you run the ipconfig /all command and examine the output. Which of the following options is the most likely explanation for the user's problem, based on the given ipconfig results?\n\n\nStart of code block\nWindows IP Configuration\n\n  Host Name . . . . . . . . . . . . : Client12\n  Primary Dns Suffix  . . . . . . . :\n  Node Type . . . . . . . . . . . . : Hybrid\n  IP Routing Enabled. . . . . . . . : No\n  WINS Proxy Enabled. . . . . . . . : No\n\nEthernet adapter Local Area Connection:\n\n  Connection-specific DNS Suffix  . :\n  Description . . . . . . . . . . . : PCIe Family Controller\n  Physical Address. . . . . . . . . : 60-EB-69-93-5E-E5\n  DHCP Enabled. . . . . . . . . . . : No\n  Autoconfiguration Enabled . . . . : Yes\n  Link-local IPv6 Address . . . . . : fe80::c955:c944:acdd:3fcb%2\n  IPv4 Address. . . . . . . . . . . : 192.168.23.234\n  Subnet Mask . . . . . . . . . . . : 255.255.255.0\n  Lease Obtained. . . . . . . . . . : Monday, October 23, 2017 6:23:47 PM\n  Lease Expires . . . . . . . . . . : Saturday, November 18, 2017 9:49:24 PM\n  Default Gateway . . . . . . . . . : 192.168.216.99\n  DHCPv6 IAID . . . . . . . . . . . : 241232745\n  DHCPv6 Client DUID  . . . . . . . : 00-01-00-01-18-10-22-0D-60-EB-69-93-5E-E5\n  DNS Servers . . . . . . . . . . . : 192.168.22.114\n  NetBIOS over Tcpip. . . . . . . . : Enabled\nEnd of code block":
     ["The 'Default Gateway' setting is incorrect."],
   "You are working with senior management to determine the best approach for a high-visibility project. This will be a large projec":

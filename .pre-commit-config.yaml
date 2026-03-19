@@ -4,5 +4,6 @@ repos:
     - id: npm-run-format
       name: npm run format
       entry: npm run format
-      language: system
+      language: node
+      additional_dependencies: ['prettier']
       pass_filenames: false
